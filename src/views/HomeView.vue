@@ -1,9 +1,13 @@
 <script setup>
 import { ChevronLeft, ChevronRight, Calendar, Book, BookOpen, Bookmark, BookMarked } from 'lucide-vue-next';
 import { useReadingStore } from '../stores/reading';
-import { computed } from 'vue';
+import { useBibleGatewayStore } from '../stores/biblegateway';
+import { useBibleApiStore } from '../stores/bibleapi';
+import { computed, watch } from 'vue';
 
 const readingStore = useReadingStore();
+const bibleGatewayStore = useBibleGatewayStore();
+const bibleApiStore = useBibleApiStore();
 
 // Initialize to today's date
 readingStore.setToday();
@@ -18,11 +22,28 @@ const formattedDate = computed(() => {
 });
 
 const readings = computed(() => readingStore.currentDayReadings);
+const readingsWithUrls = computed(() => bibleGatewayStore.getReadingUrls(readings.value));
 
-const getReadingByBook = (book) => {
-  if (!readings.value) return null;
-  return readings.value.find(r => r.book === book);
+const bookIcons = [Book, BookOpen, Bookmark, BookMarked];
+const getBookIcon = (index) => bookIcons[index % bookIcons.length];
+
+// Function to get preview of verses (first 150 characters)
+const getVersePreview = (text) => {
+  if (!text) return '';
+  const preview = text.slice(0, 150);
+  return preview + (text.length > 150 ? '...' : '');
 };
+
+// Function to open link in new tab
+const openInNewTab = (url) => {
+  window.open(url, '_blank', 'noopener,noreferrer');
+};
+
+// Watch for changes in readings and fetch verses
+watch(readings, async (newReadings) => {
+  if (!newReadings) return;
+  await bibleApiStore.getMultipleVerses(newReadings);
+}, { immediate: true });
 </script>
 
 <template>
@@ -59,75 +80,49 @@ const getReadingByBook = (book) => {
       </Button>
     </div>
 
-    <div v-if="readings" id="readings" class="grid w-full px-3" style="max-width: 800px">
-      <div class="col-12 md:col-6 p-2">
-        <Card class="h-full">
-          <template #header>
-            <div class="flex align-items-center gap-2 p-3 surface-section">
-              <Book class="w-6 h-6 text-primary" />
-              <span class="text-xl font-medium">Genesis</span>
-            </div>
-          </template>
+    <div id="readings" class="grid w-full px-3" style="max-width: 800px">
+      <div v-if="!readings" class="col-12 text-center">
+        <Card class="h-full border-1 surface-border">
           <template #content>
-            <p v-if="getReadingByBook('Genesis')" class="m-0 text-lg">
-              {{ getReadingByBook('Genesis').verses }}
-            </p>
+            <div class="text-center">
+              <h3 class="text-2xl mb-2">No Readings Today</h3>
+              <p class="text-lg text-700">Today is Sunday. Take time to reflect on the week's readings.</p>
+            </div>
           </template>
         </Card>
       </div>
-
-      <div class="col-12 md:col-6 p-2">
-        <Card class="h-full">
+      <div v-else v-for="(reading, index) in readingsWithUrls" :key="reading.book" class="col-12 md:col-6 p-2">
+        <Card class="h-full border-1 surface-border">
           <template #header>
-            <div class="flex align-items-center gap-2 p-3 surface-section">
-              <BookOpen class="w-6 h-6 text-primary" />
-              <span class="text-xl font-medium">Matthew</span>
+            <div class="flex align-items-center justify-content-center p-3 surface-section">
+              <component 
+                :is="getBookIcon(index)"
+                class="h-6 text-primary mr-3" 
+              />
+              <span class="text-xl font-medium">{{ reading.book+" "+reading.verses }}</span>
             </div>
           </template>
           <template #content>
-            <p v-if="getReadingByBook('Matthew')" class="m-0 text-lg">
-              {{ getReadingByBook('Matthew').verses }}
-            </p>
-          </template>
-        </Card>
-      </div>
-
-      <div class="col-12 md:col-6 p-2">
-        <Card class="h-full">
-          <template #header>
-            <div class="flex align-items-center gap-2 p-3 surface-section">
-              <Bookmark class="w-6 h-6 text-primary" />
-              <span class="text-xl font-medium">Psalms</span>
+            <div class="relative">
+              <p v-if="bibleApiStore.isLoading" class="text-sm mb-3">Loading verses...</p>
+              <p v-else-if="bibleApiStore.error" class="text-sm mb-3 text-red-500">Error loading verses</p>
+              <p v-else class="text-sm mb-3">
+                {{ getVersePreview(bibleApiStore.getCachedVerse(reading.book, reading.verses)?.text) }}
+              </p>
+              <div class="flex justify-content-end">
+                <Button
+                  outlined
+                  size="small"
+                  @click="openInNewTab(reading.url)"
+                  class="p-button-outlined border-1 surface-border hover:surface-200 transition-colors text-900"
+                >
+                  Read
+                </Button>
+              </div>
             </div>
           </template>
-          <template #content>
-            <p v-if="getReadingByBook('Psalms')" class="m-0 text-lg">
-              {{ getReadingByBook('Psalms').verses }}
-            </p>
-          </template>
         </Card>
       </div>
-
-      <div class="col-12 md:col-6 p-2">
-        <Card class="h-full">
-          <template #header>
-            <div class="flex align-items-center gap-2 p-3 surface-section">
-              <BookMarked class="w-6 h-6 text-primary" />
-              <span class="text-xl font-medium">Acts</span>
-            </div>
-          </template>
-          <template #content>
-            <p v-if="getReadingByBook('Acts')" class="m-0 text-lg">
-              {{ getReadingByBook('Acts').verses }}
-            </p>
-          </template>
-        </Card>
-      </div>
-    </div>
-
-    <div v-else class="text-center mt-4">
-      <h3 class="text-2xl mb-2">No Readings Today</h3>
-      <p class="text-lg text-700">Today is Sunday - Take time to reflect on the week's readings.</p>
     </div>
   </main>
 </template>

@@ -33,47 +33,28 @@ export const useReadingStore = defineStore('reading', {
     },
 
     /**
-     * Move to the next reading day (skips Sundays)
+     * Move to the next reading day
      */
     nextDay() {
       const nextDate = new Date(this.currentDate)
       nextDate.setDate(nextDate.getDate() + 1)
-      
-      // Skip Sunday
-      if (nextDate.getDay() === 0) {
-        nextDate.setDate(nextDate.getDate() + 1)
-      }
-      
       this.currentDate = nextDate
     },
 
     /**
-     * Move to the previous reading day (skips Sundays)
+     * Move to the previous reading day
      */
     previousDay() {
       const prevDate = new Date(this.currentDate)
       prevDate.setDate(prevDate.getDate() - 1)
-      
-      // Skip Sunday
-      if (prevDate.getDay() === 0) {
-        prevDate.setDate(prevDate.getDate() - 1)
-      }
-      
       this.currentDate = prevDate
     },
 
     /**
-     * Set the date to today (if today is Sunday, move to Monday)
+     * Set the date to today
      */
     setToday() {
-      const today = new Date()
-      
-      // If today is Sunday, move to Monday
-      if (today.getDay() === 0) {
-        today.setDate(today.getDate() + 1)
-      }
-      
-      this.currentDate = today
+      this.currentDate = new Date()
     }
   }
 })
@@ -82,18 +63,17 @@ export const useReadingStore = defineStore('reading', {
  * Helper function to get the daily readings based on a date
  */
 function getDailyReadings(date) {
-  const dayOfWeek = date.getDay()
   const day = date.getDate()
   
-  // Return null for Sundays
-  if (dayOfWeek === 0) {
-    return null
-  }
-
   // Find the reading for the current day
   const reading = readingData.days.find(d => d.day === day)
   if (!reading) {
     console.error('Reading not found for date:', date)
+    return null
+  }
+
+  // Return null if readings array is empty (Sundays)
+  if (!reading.readings || reading.readings.length === 0) {
     return null
   }
 

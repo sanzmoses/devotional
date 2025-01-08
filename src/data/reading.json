@@ -51,7 +51,7 @@
         ]
       },
       {
-        "day": 6,
+        "day": 7,
         "readings": [
           { "book": "Matthew", "verses": "4:1-11" },
           { "book": "Acts",    "verses": "4:1-22" },
@@ -60,7 +60,7 @@
         ]
       },
       {
-        "day": 7,
+        "day": 8,
         "readings": [
           { "book": "Matthew", "verses": "4:12-17" },
           { "book": "Acts",    "verses": "4:23-37" },
@@ -69,7 +69,7 @@
         ]
       },
       {
-        "day": 8,
+        "day": 9,
         "readings": [
           { "book": "Matthew", "verses": "4:18-25" },
           { "book": "Acts",    "verses": "5:1-11" },
@@ -78,7 +78,7 @@
         ]
       },
       {
-        "day": 9,
+        "day": 10,
         "readings": [
           { "book": "Matthew", "verses": "5:1-12" },
           { "book": "Acts",    "verses": "5:12-42" },
@@ -87,7 +87,7 @@
         ]
       },
       {
-        "day": 10,
+        "day": 11,
         "readings": [
           { "book": "Matthew", "verses": "5:13-20" },
           { "book": "Acts",    "verses": "6" },
@@ -96,7 +96,11 @@
         ]
       },
       {
-        "day": 11,
+        "day": 12,
+        "readings": []
+      },
+      {
+        "day": 13,
         "readings": [
           { "book": "Matthew", "verses": "5:21-32" },
           { "book": "Acts",    "verses": "7:1-53" },
@@ -105,7 +109,7 @@
         ]
       },
       {
-        "day": 12,
+        "day": 14,
         "readings": [
           { "book": "Matthew", "verses": "5:33-48" },
           { "book": "Acts",    "verses": "7:54-8:3" },
@@ -114,7 +118,7 @@
         ]
       },
       {
-        "day": 13,
+        "day": 15,
         "readings": [
           { "book": "Matthew", "verses": "6:1-15" },
           { "book": "Acts",    "verses": "8:4-25" },
@@ -123,7 +127,7 @@
         ]
       },
       {
-        "day": 14,
+        "day": 16,
         "readings": [
           { "book": "Matthew", "verses": "6:16-24" },
           { "book": "Acts",    "verses": "8:26-40" },
@@ -132,7 +136,7 @@
         ]
       },
       {
-        "day": 15,
+        "day": 17,
         "readings": [
           { "book": "Matthew", "verses": "6:25-34" },
           { "book": "Acts",    "verses": "9:1-19" },
@@ -141,7 +145,7 @@
         ]
       },
       {
-        "day": 16,
+        "day": 18,
         "readings": [
           { "book": "Matthew", "verses": "7:1-6" },
           { "book": "Acts",    "verses": "9:20-43" },
@@ -150,7 +154,11 @@
         ]
       },
       {
-        "day": 17,
+        "day": 19,
+        "readings": []
+      },
+      {
+        "day": 20,
         "readings": [
           { "book": "Matthew", "verses": "7:7-14" },
           { "book": "Acts",    "verses": "10:1-23" },
@@ -159,7 +167,7 @@
         ]
       },
       {
-        "day": 18,
+        "day": 21,
         "readings": [
           { "book": "Matthew", "verses": "7:15-29" },
           { "book": "Acts",    "verses": "10:24-48" },
@@ -168,7 +176,7 @@
         ]
       },
       {
-        "day": 19,
+        "day": 22,
         "readings": [
           { "book": "Matthew", "verses": "8:1-13" },
           { "book": "Acts",    "verses": "11:1-18" },
@@ -177,7 +185,7 @@
         ]
       },
       {
-        "day": 20,
+        "day": 23,
         "readings": [
           { "book": "Matthew", "verses": "8:14-22" },
           { "book": "Acts",    "verses": "11:19-30" },
@@ -186,7 +194,7 @@
         ]
       },
       {
-        "day": 21,
+        "day": 24,
         "readings": [
           { "book": "Matthew", "verses": "8:23-34" },
           { "book": "Acts",    "verses": "12" },
@@ -195,7 +203,7 @@
         ]
       },
       {
-        "day": 22,
+        "day": 25,
         "readings": [
           { "book": "Matthew", "verses": "9:1-8" },
           { "book": "Acts",    "verses": "13:1-12" },
@@ -204,7 +212,11 @@
         ]
       },
       {
-        "day": 23,
+        "day": 26,
+        "readings": []
+      },
+      {
+        "day": 27,
         "readings": [
           { "book": "Matthew", "verses": "9:9-17" },
           { "book": "Acts",    "verses": "13:13-52" },
@@ -213,7 +225,7 @@
         ]
       },
       {
-        "day": 24,
+        "day": 28,
         "readings": [
           { "book": "Matthew", "verses": "9:18-31" },
           { "book": "Acts",    "verses": "14" },
@@ -222,7 +234,7 @@
         ]
       },
       {
-        "day": 25,
+        "day": 29,
         "readings": [
           { "book": "Matthew", "verses": "9:32-38" },
           { "book": "Acts",    "verses": "15:1-21" },
@@ -232,4 +244,3 @@
       }
     ]
   }
-  
