@@ -48,7 +48,7 @@ watch(readings, async (newReadings) => {
 
 <template>
   <main class="flex flex-column align-items-center justify-content-center h-screen min-h-[500px]">
-    <h1 id="title" class="text-4xl font-bold mb-6 text-center">Bible in one year with Kaye</h1>
+    <h1 id="title" class="text-4xl font-bold mb-4 text-center">Bible in one year with Kaye</h1>
 
     <div id="calendar" class="flex align-items-center justify-content-center mb-4">
       <Button 
@@ -94,7 +94,7 @@ watch(readings, async (newReadings) => {
       <div v-else v-for="(reading, index) in readingsWithUrls" :key="reading.book" class="col-12 md:col-6 p-2">
         <Card class="h-full border-1 surface-border">
           <template #header>
-            <div class="flex align-items-center justify-content-center p-3 surface-section">
+            <div class="flex align-items-center justify-content-center pt-3 surface-section">
               <component 
                 :is="getBookIcon(index)"
                 class="h-6 text-primary mr-3" 
@@ -103,18 +103,17 @@ watch(readings, async (newReadings) => {
             </div>
           </template>
           <template #content>
-            <div class="relative">
+            <div class="relative pt-0">
               <p v-if="bibleApiStore.isLoading" class="text-sm mb-3">Loading verses...</p>
               <p v-else-if="bibleApiStore.error" class="text-sm mb-3 text-red-500">Error loading verses</p>
-              <p v-else class="text-sm mb-3">
+              <p v-else class="text-sm mb-2">
                 {{ getVersePreview(bibleApiStore.getCachedVerse(reading.book, reading.verses)?.text) }}
               </p>
               <div class="flex justify-content-end">
                 <Button
-                  outlined
                   size="small"
                   @click="openInNewTab(reading.url)"
-                  class="p-button-outlined border-1 surface-border hover:surface-200 transition-colors text-900"
+                  class="p-button-outlined border-1 surface-border hover:surface-200 transition-colors text-900 px-3"
                 >
                   Read
                 </Button>
@@ -147,5 +146,9 @@ watch(readings, async (newReadings) => {
 #calendar :deep(.calendar-today:hover) {
   background: transparent;
   text-decoration: underline;
+}
+
+:deep(.p-card-body) {
+  padding-top: 10px;
 }
 </style>
