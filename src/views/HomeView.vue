@@ -5,6 +5,12 @@ import { useBibleGatewayStore } from '../stores/biblegateway';
 import { useBibleApiStore } from '../stores/bibleapi';
 import { computed, watch } from 'vue';
 
+// Import background images
+import bg1 from '../assets/background/1.png';
+import bg2 from '../assets/background/2.png';
+import bg3 from '../assets/background/3.png';
+import bg4 from '../assets/background/4.png';
+
 const readingStore = useReadingStore();
 const bibleGatewayStore = useBibleGatewayStore();
 const bibleApiStore = useBibleApiStore();
@@ -25,7 +31,9 @@ const readings = computed(() => readingStore.currentDayReadings);
 const readingsWithUrls = computed(() => bibleGatewayStore.getReadingUrls(readings.value));
 
 const bookIcons = [Book, BookOpen, Bookmark, BookMarked];
+const backgrounds = [bg1, bg2, bg3, bg4];
 const getBookIcon = (index) => bookIcons[index % bookIcons.length];
+const getBackground = (index) => backgrounds[index % backgrounds.length];
 
 // Function to get preview of verses (first 150 characters)
 const getVersePreview = (text) => {
@@ -91,10 +99,10 @@ watch(readings, async (newReadings) => {
           </template>
         </Card>
       </div>
-      <div v-else v-for="(reading, index) in readingsWithUrls" :key="reading.book" class="col-12 md:col-6 p-2">
-        <Card class="h-full border-1 surface-border">
+      <div v-else v-for="(reading, index) in readingsWithUrls" :key="reading.book+reading.verses" class="col-12 md:col-6 p-2">
+        <Card class="h-full shadow-2 surface-border relative overflow-hidden text-white card-content hover-effect">
           <template #header>
-            <div class="flex align-items-center justify-content-center pt-3 surface-section">
+            <div class="flex align-items-center justify-content-center pt-3 surface-section relative z-1">
               <component 
                 :is="getBookIcon(index)"
                 class="h-6 text-primary mr-3" 
@@ -103,22 +111,27 @@ watch(readings, async (newReadings) => {
             </div>
           </template>
           <template #content>
-            <div class="relative pt-0">
+            <div class="relative pt-0 z-1">
               <p v-if="bibleApiStore.isLoading" class="text-sm mb-3">Loading verses...</p>
               <p v-else-if="bibleApiStore.error" class="text-sm mb-3 text-red-500">Error loading verses</p>
-              <p v-else class="text-sm mb-2">
+              <p v-else class="text-sm mb-2 text-gray-800">
                 {{ getVersePreview(bibleApiStore.getCachedVerse(reading.book, reading.verses)?.text) }}
               </p>
               <div class="flex justify-content-end">
                 <Button
                   size="small"
+                  color="red"
                   @click="openInNewTab(reading.url)"
-                  class="p-button-outlined border-1 surface-border hover:surface-200 transition-colors text-900 px-3"
+                  class="p-button-outlined transition-colors px-3 "
                 >
                   Read
                 </Button>
               </div>
             </div>
+            <div 
+              class="absolute top-0 left-0 w-full h-full" 
+              :style="{ backgroundImage: `url(${getBackground(index)})`, backgroundSize: 'cover', backgroundPosition: 'center' }"
+            ></div>
           </template>
         </Card>
       </div>
@@ -127,6 +140,16 @@ watch(readings, async (newReadings) => {
 </template>
 
 <style scoped>
+.card-content {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+}
+
+.hover-effect:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 #calendar :deep(.calendar-nav) {
   color: var(--text-color-secondary);
   min-width: 2rem;
@@ -150,5 +173,16 @@ watch(readings, async (newReadings) => {
 
 :deep(.p-card-body) {
   padding-top: 10px;
+}
+
+:deep(.p-button-outlined) {
+  color: white;
+  border-color: white;
+}
+
+:deep(.p-button-outlined:hover) {
+  color: black !important;
+  border-color: white !important;
+  background-color: white !important;
 }
 </style>

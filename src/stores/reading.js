@@ -9,11 +9,46 @@ export const useReadingStore = defineStore('reading', {
 
   getters: {
     /**
+     * Get the current month's readings data
+     */
+    currentMonthData: (state) => {
+      const monthIndex = state.currentDate.getMonth()
+      return state.readings[monthIndex] || state.readings[0] // Fallback to first month if current month not found
+    },
+
+    /**
      * Get the current day's readings
      */
     currentDayReadings: (state) => {
-      const date = state.currentDate
-      return getDailyReadings(date)
+      const day = state.currentDate.getDate()
+      const monthData = state.readings[state.currentDate.getMonth()] || state.readings[0]
+      
+      if (!monthData || !monthData.days) {
+        console.error('Month data not found')
+        return null
+      }
+
+      const dayData = monthData.days.find(d => d.day === day)
+      if (!dayData || !dayData.readings || dayData.readings.length === 0) {
+        return null
+      }
+
+      return dayData.readings
+    },
+
+    /**
+     * Get the current month name
+     */
+    currentMonth: (state) => {
+      const monthData = state.readings[state.currentDate.getMonth()] || state.readings[0]
+      return monthData ? monthData.month : ''
+    },
+
+    /**
+     * Get the current day number
+     */
+    currentDay: (state) => {
+      return state.currentDate.getDate()
     },
 
     /**
@@ -38,7 +73,12 @@ export const useReadingStore = defineStore('reading', {
     nextDay() {
       const nextDate = new Date(this.currentDate)
       nextDate.setDate(nextDate.getDate() + 1)
-      this.currentDate = nextDate
+      
+      // Check if the next date has readings in our data
+      const nextMonthData = this.readings[nextDate.getMonth()] || this.readings[0]
+      if (nextMonthData && nextMonthData.days.some(d => d.day === nextDate.getDate())) {
+        this.currentDate = nextDate
+      }
     },
 
     /**
@@ -47,35 +87,39 @@ export const useReadingStore = defineStore('reading', {
     previousDay() {
       const prevDate = new Date(this.currentDate)
       prevDate.setDate(prevDate.getDate() - 1)
-      this.currentDate = prevDate
+      
+      // Check if the previous date has readings in our data
+      const prevMonthData = this.readings[prevDate.getMonth()] || this.readings[0]
+      if (prevMonthData && prevMonthData.days.some(d => d.day === prevDate.getDate())) {
+        this.currentDate = prevDate
+      }
     },
 
     /**
      * Set the date to today
      */
     setToday() {
-      this.currentDate = new Date()
+      const today = new Date()
+      
+      // Check if today has readings in our data
+      const monthData = this.readings[today.getMonth()] || this.readings[0]
+      if (monthData && monthData.days.some(d => d.day === today.getDate())) {
+        this.currentDate = today
+      } else {
+        // If today doesn't have readings, find the closest previous day that does
+        const day = monthData.days.reduce((closest, curr) => {
+          if (curr.day <= today.getDate() && curr.day > closest.day) {
+            return curr
+          }
+          return closest
+        }, { day: 0 })
+        
+        if (day.day > 0) {
+          const validDate = new Date(today)
+          validDate.setDate(day.day)
+          this.currentDate = validDate
+        }
+      }
     }
   }
 })
-
-/**
- * Helper function to get the daily readings based on a date
- */
-function getDailyReadings(date) {
-  const day = date.getDate()
-  
-  // Find the reading for the current day
-  const reading = readingData.days.find(d => d.day === day)
-  if (!reading) {
-    console.error('Reading not found for date:', date)
-    return null
-  }
-
-  // Return null if readings array is empty (Sundays)
-  if (!reading.readings || reading.readings.length === 0) {
-    return null
-  }
-
-  return reading.readings
-}
