@@ -1,5 +1,5 @@
 <script setup>
-import { ChevronLeft, ChevronRight, Calendar, Book, BookOpen, Bookmark, BookMarked } from 'lucide-vue-next';
+import { ChevronLeft, ChevronRight, Book, BookOpen, Bookmark, BookMarked, BookHeart } from 'lucide-vue-next';
 import { useReadingStore } from '../stores/reading';
 import { useBibleGatewayStore } from '../stores/biblegateway';
 import { useBibleApiStore } from '../stores/bibleapi';
@@ -55,32 +55,38 @@ watch(readings, async (newReadings) => {
 </script>
 
 <template>
-  <main class="flex flex-column align-items-center justify-content-center h-screen min-h-[500px]">
-    <h1 id="title" class="text-4xl font-bold mb-4 text-center">Bible in one year with Kaye</h1>
+  <main class="flex flex-column align-items-center justify-content-center overflow-auto py-5 md:py-8">
+    <div class="flex align-items-center mb-4">
+      <BookHeart/> 
+      <h1 id="title" class="text-xl sm:text-4xl font-bold text-center mx-2">Bible in one year with Kaye</h1>
+      <BookHeart/>
+    </div>
+    
 
-    <div id="calendar" class="flex align-items-center justify-content-center mb-4">
+    <div id="calendar" class="flex align-items-center justify-content-center  mb-4">
       <Button 
         text
-        class="calendar-nav"
+        class="calendar-nav text-sm sm:text-lg"
         @click="readingStore.previousDay"
       >
         <ChevronLeft class="w-10 h-10" />
-        previous
+        prev
       </Button>
-      <div class="text-center mx-8">
-        <h2 class="text-xl mb-2 flex align-items-center justify-content-center">
+      <div class="text-center mx-5 md:mx-8">
+        <h2 class="text-lg sm:text-2xl mb-1 flex align-items-center justify-content-center">
           {{ formattedDate }}
         </h2>
         <Button 
-          label="Today" 
           text 
-          class="p-button-secondary calendar-today"
+          label="Today" 
+          color="secondary"
+          class="calendar-today text-sm sm:text-lg"
           @click="readingStore.setToday"
         />
       </div>
       <Button 
         text
-        class="calendar-nav"
+        class="calendar-nav text-sm sm:text-lg"
         @click="readingStore.nextDay"
       >
         next
