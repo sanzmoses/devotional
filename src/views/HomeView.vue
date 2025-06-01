@@ -57,9 +57,7 @@ watch(readings, async (newReadings) => {
 <template>
   <main class="flex flex-column align-items-center justify-content-center overflow-auto py-5 md:py-8">
     <div class="flex align-items-center mb-4">
-      <BookHeart/> 
       <h1 id="title" class="text-xl sm:text-4xl font-bold text-center mx-2">Bible in one year with Kaye</h1>
-      <BookHeart/>
     </div>
     
 
