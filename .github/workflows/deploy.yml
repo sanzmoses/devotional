@@ -32,4 +32,4 @@ jobs:
           username: u141166830.devotional
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: /home/u141166830/domains/devotional.sanzmoses.com/public_html/
+          server-dir: ./
