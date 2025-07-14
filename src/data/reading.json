@@ -1628,16 +1628,16 @@
       },
       { 
         "day": 13, 
-        "readings": [ 
+        "readings": [] 
+      },
+      { 
+        "day": 14, 
+         "readings": [ 
           { "book": "Luke",         "verses": "9:51-62" }, 
           { "book": "1 Thessalonians","verses": "2:10-20" },
           { "book": "Psalms",       "verses": "137" },     
           { "book": "1 Chronicles", "verses": "29" } 
         ] 
-      },
-      { 
-        "day": 14, 
-        "readings": [] 
       },
       { 
         "day": 15, 
@@ -1677,15 +1677,16 @@
       },
       { 
         "day": 19, 
-        "readings": [] 
-      },
-      { 
-        "day": 20, 
-        "readings": [ 
+        "readings": [
           { "book": "Luke","verses": "11:1-13" },
           { "book": "1 Thessalonians","verses": "5:1-11" },
           { "book": "Psalms", "verses": "142" },     
-          { "book": "2 Chronicles","verses": "10-12" } ] 
+          { "book": "2 Chronicles","verses": "10-12" } 
+        ] 
+      },
+      { 
+        "day": 20, 
+        "readings": [] 
       },
       { 
         "day": 21, 
@@ -1705,10 +1706,6 @@
       },
       { 
         "day": 23, 
-        "readings": [] 
-      },
-      { 
-        "day": 24, 
         "readings": [ 
           { "book": "Luke", "verses": "11:37-54" },
           { "book": "2 Thessalonians","verses": "1:8-12" },
@@ -1716,7 +1713,7 @@
           { "book": "2 Chronicles","verses": "20-21" } ] 
       },
       { 
-        "day": 25, 
+        "day": 24, 
         "readings": [ 
           { "book": "Luke", "verses": "12:1-12" },
           { "book": "2 Thessalonians","verses": "2:1-12" },
@@ -1724,12 +1721,21 @@
           { "book": "2 Chronicles","verses": "22-24" } ] 
       },
       { 
-        "day": 26, 
+        "day": 25, 
         "readings": [ 
           { "book": "Luke", "verses": "12:13-21" },
           { "book": "2 Thessalonians","verses": "2:13-17" },
           { "book": "Psalms", "verses": "147" },     
           { "book": "2 Chronicles","verses": "25-27" } ] 
+      },
+      { 
+        "day": 26, 
+        "readings": [
+          { "book": "Luke", "verses": "12:22-34" },
+          { "book": "2 Thessalonians","verses": "3:1-5" },
+          { "book": "Psalms", "verses": "148" },     
+          { "book": "2 Chronicles","verses": "28-29" } 
+        ] 
       },
       { 
         "day": 27, 
@@ -1738,26 +1744,22 @@
       { 
         "day": 28, 
         "readings": [ 
-          { "book": "Luke", "verses": "12:22-34" },
-          { "book": "2 Thessalonians","verses": "3:1-5" },
-          { "book": "Psalms", "verses": "148" },     
-          { "book": "2 Chronicles","verses": "28-29" } ] 
-      },
-      { 
-        "day": 29, 
-        "readings": [ 
           { "book": "Luke", "verses": "12:35-48" },
           { "book": "2 Thessalonians","verses": "3:6-13" },
           { "book": "Psalms", "verses": "149" },     
           { "book": "2 Chronicles","verses": "30-33" } ] 
       },
       { 
-        "day": 30, 
+        "day": 29, 
         "readings": [ 
           { "book": "Luke", "verses": "12:49-59" },
           { "book": "2 Thessalonians","verses": "3:14-18" },
           { "book": "Psalms", "verses": "150" },     
           { "book": "2 Chronicles","verses": "34-36" } ] 
+      },
+      { 
+        "day": 30, 
+        "readings": [] 
       },
       { 
         "day": 31, 
