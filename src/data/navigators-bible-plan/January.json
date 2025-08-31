@@ -1,0 +1,588 @@
+{
+  "month": "January",
+  "days": [
+    {
+      "day": 1,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "1:1-17"
+        },
+        {
+          "book": "Acts",
+          "verses": "1:1-11"
+        },
+        {
+          "book": "Psalms",
+          "verses": "1"
+        },
+        {
+          "book": "Genesis",
+          "verses": "1-2"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "1:18-25"
+        },
+        {
+          "book": "Acts",
+          "verses": "1:12-26"
+        },
+        {
+          "book": "Psalms",
+          "verses": "2"
+        },
+        {
+          "book": "Genesis",
+          "verses": "3-4"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "2:1-12"
+        },
+        {
+          "book": "Acts",
+          "verses": "2:1-21"
+        },
+        {
+          "book": "Psalms",
+          "verses": "3"
+        },
+        {
+          "book": "Genesis",
+          "verses": "5-68"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "2:13-23"
+        },
+        {
+          "book": "Acts",
+          "verses": "2:22-47"
+        },
+        {
+          "book": "Psalms",
+          "verses": "4"
+        },
+        {
+          "book": "Genesis",
+          "verses": "9-11"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "readings": []
+    },
+    {
+      "day": 6,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "3:1-12"
+        },
+        {
+          "book": "Acts",
+          "verses": "3"
+        },
+        {
+          "book": "Psalms",
+          "verses": "5"
+        },
+        {
+          "book": "Genesis",
+          "verses": "12-14"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "3:13-17"
+        },
+        {
+          "book": "Acts",
+          "verses": "4:1-22"
+        },
+        {
+          "book": "Psalms",
+          "verses": "6"
+        },
+        {
+          "book": "Genesis",
+          "verses": "15-17"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "4:1-11"
+        },
+        {
+          "book": "Acts",
+          "verses": "4:23-37"
+        },
+        {
+          "book": "Psalms",
+          "verses": "7"
+        },
+        {
+          "book": "Genesis",
+          "verses": "18-20"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "4:12-17"
+        },
+        {
+          "book": "Acts",
+          "verses": "5:1-16"
+        },
+        {
+          "book": "Psalms",
+          "verses": "8"
+        },
+        {
+          "book": "Genesis",
+          "verses": "21-23"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "4:18-25"
+        },
+        {
+          "book": "Acts",
+          "verses": "5:17-42"
+        },
+        {
+          "book": "Psalms",
+          "verses": "9"
+        },
+        {
+          "book": "Genesis",
+          "verses": "24"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "5:1-12"
+        },
+        {
+          "book": "Acts",
+          "verses": "6"
+        },
+        {
+          "book": "Psalms",
+          "verses": "10"
+        },
+        {
+          "book": "Genesis",
+          "verses": "25-26"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "readings": []
+    },
+    {
+      "day": 13,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "5:13-20"
+        },
+        {
+          "book": "Acts",
+          "verses": "7:1-38"
+        },
+        {
+          "book": "Psalms",
+          "verses": "11"
+        },
+        {
+          "book": "Genesis",
+          "verses": "27-28"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "5:21-32"
+        },
+        {
+          "book": "Acts",
+          "verses": "7:39-60"
+        },
+        {
+          "book": "Psalms",
+          "verses": "12"
+        },
+        {
+          "book": "Genesis",
+          "verses": "29-30"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "5:33-48"
+        },
+        {
+          "book": "Acts",
+          "verses": "8:1-25"
+        },
+        {
+          "book": "Psalms",
+          "verses": "13"
+        },
+        {
+          "book": "Genesis",
+          "verses": "31"
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "6:1-15"
+        },
+        {
+          "book": "Acts",
+          "verses": "8:26-40"
+        },
+        {
+          "book": "Psalms",
+          "verses": "14"
+        },
+        {
+          "book": "Genesis",
+          "verses": "32-33"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "6:16-24"
+        },
+        {
+          "book": "Acts",
+          "verses": "9:1-19"
+        },
+        {
+          "book": "Psalms",
+          "verses": "15"
+        },
+        {
+          "book": "Genesis",
+          "verses": "34-35"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "6:25-34"
+        },
+        {
+          "book": "Acts",
+          "verses": "9:20-43"
+        },
+        {
+          "book": "Psalms",
+          "verses": "16"
+        },
+        {
+          "book": "Genesis",
+          "verses": "36"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "readings": []
+    },
+    {
+      "day": 20,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "7:1-14"
+        },
+        {
+          "book": "Acts",
+          "verses": "10:1-23"
+        },
+        {
+          "book": "Psalms",
+          "verses": "17"
+        },
+        {
+          "book": "Genesis",
+          "verses": "37-38"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "7:15-29"
+        },
+        {
+          "book": "Acts",
+          "verses": "10:24-48"
+        },
+        {
+          "book": "Psalms",
+          "verses": "18:1-24"
+        },
+        {
+          "book": "Genesis",
+          "verses": "39-40"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "8:1-13"
+        },
+        {
+          "book": "Acts",
+          "verses": "11:1-18"
+        },
+        {
+          "book": "Psalms",
+          "verses": "18:25-50"
+        },
+        {
+          "book": "Genesis",
+          "verses": "41"
+        }
+      ]
+    },
+    {
+      "day": 23,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "8:14-22"
+        },
+        {
+          "book": "Acts",
+          "verses": "11:19-30"
+        },
+        {
+          "book": "Psalms",
+          "verses": "19"
+        },
+        {
+          "book": "Genesis",
+          "verses": "42-43"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "8:23-34"
+        },
+        {
+          "book": "Acts",
+          "verses": "12"
+        },
+        {
+          "book": "Psalms",
+          "verses": "20"
+        },
+        {
+          "book": "Genesis",
+          "verses": "44-45"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "9:1-13"
+        },
+        {
+          "book": "Acts",
+          "verses": "13:1-24"
+        },
+        {
+          "book": "Psalms",
+          "verses": "21"
+        },
+        {
+          "book": "Genesis",
+          "verses": "46-47"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "readings": []
+    },
+    {
+      "day": 27,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "9:14-26"
+        },
+        {
+          "book": "Acts",
+          "verses": "13:26-52"
+        },
+        {
+          "book": "Psalms",
+          "verses": "22:1-11"
+        },
+        {
+          "book": "Genesis",
+          "verses": "48"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "9:27-38"
+        },
+        {
+          "book": "Acts",
+          "verses": "14"
+        },
+        {
+          "book": "Psalms",
+          "verses": "22:12-31"
+        },
+        {
+          "book": "Genesis",
+          "verses": "49"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "10:1-21"
+        },
+        {
+          "book": "Acts",
+          "verses": "15:1-20"
+        },
+        {
+          "book": "Psalms",
+          "verses": "23"
+        },
+        {
+          "book": "Genesis",
+          "verses": "50"
+        }
+      ]
+    },
+    {
+      "day": 30,
+      "readings": [
+        {
+          "book": "Psalms",
+          "verses": "19:7-11"
+        },
+        {
+          "book": "Matthew",
+          "verses": "5:17-20"
+        },
+        {
+          "book": "Genesis",
+          "verses": "50:15-21"
+        },
+        {
+          "book": "Matthew",
+          "verses": "6:19-24"
+        }
+      ]
+    },
+    {
+      "day": 31,
+      "readings": [
+        {
+          "book": "Matthew",
+          "verses": "10:21-42"
+        },
+        {
+          "book": "Acts",
+          "verses": "15:22-41"
+        },
+        {
+          "book": "Psalms",
+          "verses": "24"
+        },
+        {
+          "book": "Exodus",
+          "verses": "1-3"
+        }
+      ]
+    }
+  ]
+}

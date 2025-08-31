@@ -1521,7 +1521,7 @@
     ]
   },
   {
-    "month": "July 2025",
+    "month": "July",
     "days": [
       { 
         "day": 1,  
@@ -1757,15 +1757,469 @@
           { "book": "Psalms", "verses": "150" },     
           { "book": "2 Chronicles","verses": "34-36" } ] 
       },
+      {
+        "day": 30,
+        "readings": [
+          {
+            "book": "Luke",
+            "verses": "12:22-34"
+          },
+          {
+            "book": "Colossians",
+            "verses": "1:15-20"
+          },
+          {
+            "book": "Psalms",
+            "verses": "139"
+          }
+        ]
+      },
+      {
+        "day": 31,
+        "readings": [
+          {
+            "book": "Luke",
+            "verses": "12:35-48"
+          },
+          {
+            "book": "2 Thessalonians",
+            "verses": "3"
+          },
+          {
+            "book": "Psalms",
+            "verses": "127"
+          }
+        ]
+      }
+    ]
+  },
+  {
+  "month": "August",
+    "days": [
       { 
-        "day": 30, 
+        "day": 1, 
+        "readings": [ 
+          { "book": "Luke", "verses": "13:1-9" },    
+          { "book": "1 Timothy", "verses": "1:1-11" },    
+          { "book": "Proverbs", "verses": "1" },       
+          { "book": "Ezra", "verses": "1-2" } 
+        ] 
+      },
+      { 
+        "day": 2, 
+        "readings": [ 
+          { "book": "Luke", "verses": "13:10-21" },  
+          { "book": "1 Timothy", "verses": "1:12-20" },   
+          { "book": "Proverbs", "verses": "2" },       
+          { "book": "Ezra", "verses": "3" } 
+        ] 
+      },
+      { 
+        "day": 3,  
+        "readings": [] },
+      { 
+        "day": 4,  
+        "readings": [ 
+          { "book": "Luke", "verses": "13:22-35" },  
+          { "book": "1 Timothy", "verses": "2" },         
+          { "book": "Proverbs", "verses": "3" },       
+          { "book": "Ezra", "verses": "4-5" } 
+        ] 
+      },
+      { 
+        "day": 5,  
+        "readings": [ 
+          { "book": "Luke", "verses": "14:1-14" },   
+          { "book": "1 Timothy", "verses": "3:1-10" },    
+          { "book": "Proverbs", "verses": "4" },       
+          { "book": "Ezra", "verses": "6" } 
+        ] 
+      },
+      { 
+        "day": 6,  
+        "readings": [ 
+          { "book": "Luke", "verses": "14:15-24" },  
+          { "book": "1 Timothy", "verses": "3:11-16" },   
+          { "book": "Proverbs", "verses": "5" },       
+          { "book": "Ezra", "verses": "7" } 
+        ] 
+      },
+      { 
+        "day": 7,  
+        "readings": [ 
+          { "book": "Luke", "verses": "14:25-35" },  
+          { "book": "1 Timothy", "verses": "4" },         
+          { "book": "Proverbs", "verses": "6" },       
+          { "book": "Ezra", "verses": "8" } 
+        ] 
+      },
+      { 
+        "day": 8,  
+        "readings": [ 
+          { "book": "Luke", "verses": "15:1-10" },   
+          { "book": "1 Timothy", "verses": "5:1-15" },    
+          { "book": "Proverbs", "verses": "7" },       
+          { "book": "Ezra", "verses": "9" } 
+        ] 
+      },
+      { 
+        "day": 9,  
+        "readings": [ 
+          { "book": "Luke", "verses": "15:11-32" },  
+          { "book": "1 Timothy", "verses": "5:16-25" },   
+          { "book": "Proverbs", "verses": "8" },       
+          { "book": "Ezra", "verses": "10" } 
+        ] 
+      },
+      { "day": 10, "readings": [] },
+      { "day": 11, "readings": [ 
+        { "book": "Luke", "verses": "16:1-9" },    
+        { "book": "1 Timothy", "verses": "6:1-10" },    
+        { "book": "Proverbs", "verses": "9" },       
+        { "book": "Nehemiah", "verses": "1-2" } 
+      ] },
+      { "day": 12, "readings": [ 
+        { "book": "Luke", "verses": "16:10-18" },  
+        { "book": "1 Timothy", "verses": "6:11-21" },   
+        { "book": "Proverbs", "verses": "10:1-16" }, 
+        { "book": "Nehemiah", "verses": "3" } 
+      ] },
+      { "day": 13, "readings": [ 
+        { "book": "Luke", "verses": "16:19-31" },  
+        { "book": "2 Timothy", "verses": "1:1-7" },     
+        { "book": "Proverbs", "verses": "10:17-32" },
+        { "book": "Nehemiah", "verses": "4-5" } 
+      ] },
+      { "day": 14, "readings": [ 
+        { "book": "Luke", "verses": "17:1-10" },   
+        { "book": "2 Timothy", "verses": "1:8-18" },    
+        { "book": "Proverbs", "verses": "11-15" },   
+        { "book": "Nehemiah", "verses": "6" } 
+      ] },
+      { "day": 15, "readings": [ 
+        { "book": "Luke", "verses": "17:11-19" },  
+        { "book": "2 Timothy", "verses": "2:1-13" },    
+        { "book": "Proverbs", "verses": "11:16-31" },
+        { "book": "Nehemiah", "verses": "7" } 
+      ] },
+      { "day": 16, "readings": [ 
+        { "book": "Luke", "verses": "17:20-37" },  
+        { "book": "2 Timothy", "verses": "2:14-26" },   
+        { "book": "Proverbs", "verses": "12:1-14" }, 
+        { "book": "Nehemiah", "verses": "8" } 
+      ] },
+      { "day": 17, "readings": [] },
+      { "day": 18, "readings": [ 
+        { "book": "Luke", "verses": "18:1-8" },    
+        { "book": "2 Timothy", "verses": "3:1-9" },     
+        { "book": "Proverbs", "verses": "12:15-28" },
+        { "book": "Nehemiah", "verses": "9" } 
+      ] },
+      { "day": 19, "readings": [ 
+        { "book": "Luke", "verses": "18:9-17" },   
+        { "book": "2 Timothy", "verses": "3:10-17" },   
+        { "book": "Proverbs", "verses": "13:1-12" }, 
+        { "book": "Nehemiah", "verses": "10" } 
+      ] },
+      { "day": 20, "readings": [ 
+        { "book": "Luke", "verses": "18:18-30" },  
+        { "book": "2 Timothy", "verses": "4" },         
+        { "book": "Proverbs", "verses": "13:13-25" },
+        { "book": "Nehemiah", "verses": "11" } 
+      ] },
+      { "day": 21, "readings": [ 
+        { "book": "Luke", "verses": "18:31-43" },  
+        { "book": "Titus", "verses": "1:1-9" },         
+        { "book": "Proverbs", "verses": "14:1-18" }, 
+        { "book": "Nehemiah", "verses": "12" } 
+      ] },
+      { "day": 22, "readings": [ 
+        { "book": "Luke", "verses": "19:1-10" },   
+        { "book": "Titus", "verses": "1:10-16" },       
+        { "book": "Proverbs", "verses": "14:19-35" },
+        { "book": "Nehemiah", "verses": "13" } 
+      ] },
+      { "day": 23, "readings": [ 
+        { "book": "Luke", "verses": "19:11-27" },  
+        { "book": "Titus", "verses": "2:1-10" },        
+        { "book": "Proverbs", "verses": "15:1-17" }, 
+        { "book": "Esther", "verses": "1" } 
+      ] },
+      { "day": 24, "readings": [] },
+      { "day": 25, "readings": [ 
+        { "book": "Luke", "verses": "19:28-38" },  
+        { "book": "Titus", "verses": "2:11-15" },       
+        { "book": "Proverbs", "verses": "15:18-33" },
+        { "book": "Esther", "verses": "2" } 
+      ] },
+      { "day": 26, "readings": [ 
+        { "book": "Luke", "verses": "19:39-48" },  
+        { "book": "Titus", "verses": "3:1-8" },         
+        { "book": "Proverbs", "verses": "16:1-16" }, 
+        { "book": "Esther", "verses": "3-4" } 
+      ] },
+      { "day": 27, "readings": [ 
+        { "book": "Luke", "verses": "20:1-8" },    
+        { "book": "Titus", "verses": "3:9-15" },        
+        { "book": "Proverbs", "verses": "16:17-33" },
+        { "book": "Esther", "verses": "5-6" } 
+      ] },
+      { "day": 28, "readings": [ 
+        { "book": "Luke", "verses": "20:9-19" },   
+        { "book": "Philemon", "verses": "1-11" },       
+        { "book": "Proverbs", "verses": "17:1-14" }, 
+        { "book": "Esther", "verses": "7-8" } 
+      ] },
+      { "day": 29, "readings": [ 
+        { "book": "Luke", "verses": "20:20-26" },  
+        { "book": "Philemon", "verses": "12-25" },      
+        { "book": "Proverbs", "verses": "17:15-28" },
+        { "book": "Esther", "verses": "9-10" } 
+      ] },
+      { "day": 30, "readings": [ { "book": "Titus", "verses": "1-3" } ] },
+      { "day": 31, "readings": [] }
+    ]
+  },
+  {
+    "month": "September",
+    "days": [
+      { 
+        "day": 1, 
+        "readings": [ 
+          { "book": "Luke", "verses": "20:27-40" }, 
+          { "book": "Hebrews", "verses": "1:1-9" }, 
+          { "book": "Proverbs", "verses": "18" }, 
+          { "book": "Isaiah", "verses": "1-2" } 
+        ] 
+      },
+      { 
+        "day": 2, 
+        "readings": [ 
+          { "book": "Luke", "verses": "20:41-47" }, 
+          { "book": "Hebrews", "verses": "1:10-14" }, 
+          { "book": "Proverbs", "verses": "19:1-14" }, 
+          { "book": "Isaiah", "verses": "3-5" } 
+        ] 
+      },
+      { 
+        "day": 3, 
+        "readings": [ 
+          { "book": "Luke", "verses": "21:1-19" }, 
+          { "book": "Hebrews", "verses": "2:1-9" }, 
+          { "book": "Proverbs", "verses": "19:15-29" }, 
+          { "book": "Isaiah", "verses": "6-8" } 
+        ] 
+      },
+      { 
+        "day": 4, 
+        "readings": [ 
+          { "book": "Luke", "verses": "21:20-28" }, 
+          { "book": "Hebrews", "verses": "2:10-18" }, 
+          { "book": "Proverbs", "verses": "20:1-15" }, 
+          { "book": "Isaiah", "verses": "9-10" } 
+        ] 
+      },
+      { 
+        "day": 5, 
+        "readings": [ 
+          { "book": "Luke", "verses": "21:29-38" }, 
+          { "book": "Hebrews", "verses": "3" }, 
+          { "book": "Proverbs", "verses": "20:16-30" }, 
+          { "book": "Isaiah", "verses": "11-13" } 
+        ] 
+      },
+      { 
+        "day": 6, 
+        "readings": [ 
+          { "book": "Luke", "verses": "22:1-13" }, 
+          { "book": "Hebrews", "verses": "4:1-11" }, 
+          { "book": "Proverbs", "verses": "21:1-16" }, 
+          { "book": "Isaiah", "verses": "14-16" } 
+        ] 
+      },
+      { "day": 7, "readings": [] },
+      { 
+        "day": 8, 
+        "readings": [ 
+          { "book": "Luke", "verses": "22:14-23" }, 
+          { "book": "Hebrews", "verses": "4:12-16" }, 
+          { "book": "Proverbs", "verses": "21:17-31" }, 
+          { "book": "Isaiah", "verses": "17-20" } 
+        ] 
+      },
+      { 
+        "day": 9, 
+        "readings": [ 
+          { "book": "Luke", "verses": "22:24-30" }, 
+          { "book": "Hebrews", "verses": "5" }, 
+          { "book": "Proverbs", "verses": "22:1-16" }, 
+          { "book": "Isaiah", "verses": "21-23" } 
+        ] 
+      },
+      { 
+        "day": 10, 
+        "readings": [ 
+          { "book": "Luke", "verses": "22:31-38" }, 
+          { "book": "Hebrews", "verses": "6:1-12" }, 
+          { "book": "Proverbs", "verses": "22:17-29" }, 
+          { "book": "Isaiah", "verses": "24-26" } 
+        ] 
+      },
+      { 
+        "day": 11, 
+        "readings": [ 
+          { "book": "Luke", "verses": "22:39-46" }, 
+          { "book": "Hebrews", "verses": "6:13-20" }, 
+          { "book": "Proverbs", "verses": "23:1-18" }, 
+          { "book": "Isaiah", "verses": "27-28" } 
+        ] 
+      },
+      { 
+        "day": 12, 
+        "readings": [ 
+          { "book": "Luke", "verses": "22:47-53" }, 
+          { "book": "Hebrews", "verses": "7:1-10" }, 
+          { "book": "Proverbs", "verses": "23:19-35" }, 
+          { "book": "Isaiah", "verses": "29-30" } 
+        ] 
+      },
+      { 
+        "day": 13, 
+        "readings": [ 
+          { "book": "Luke", "verses": "22:54-62" }, 
+          { "book": "Hebrews", "verses": "7:11-28" }, 
+          { "book": "Proverbs", "verses": "24:1-22" }, 
+          { "book": "Isaiah", "verses": "31-33" } 
+        ] 
+      },
+      { "day": 14, "readings": [] },
+      { 
+        "day": 15, 
+        "readings": [ 
+          { "book": "Luke", "verses": "22:63-71" }, 
+          { "book": "Hebrews", "verses": "8:1-6" }, 
+          { "book": "Proverbs", "verses": "24:23-34" }, 
+          { "book": "Isaiah", "verses": "34-36" } 
+        ] 
+      },
+      { 
+        "day": 16, 
+        "readings": [ 
+          { "book": "Luke", "verses": "23:1-12" }, 
+          { "book": "Hebrews", "verses": "8:7-13" }, 
+          { "book": "Proverbs", "verses": "25:1-14" }, 
+          { "book": "Isaiah", "verses": "37-39" } 
+        ] 
+      },
+      { 
+        "day": 17, 
+        "readings": [ 
+          { "book": "Luke", "verses": "23:13-25" }, 
+          { "book": "Hebrews", "verses": "9:1-10" }, 
+          { "book": "Proverbs", "verses": "25:15-28" }, 
+          { "book": "Isaiah", "verses": "40-41" } 
+        ] 
+      },
+      { 
+        "day": 18, 
+        "readings": [ 
+          { "book": "Luke", "verses": "23:26-31" }, 
+          { "book": "Hebrews", "verses": "9:11-28" }, 
+          { "book": "Proverbs", "verses": "26:1-16" }, 
+          { "book": "Isaiah", "verses": "42-43" } 
+        ] 
+      },
+      { 
+        "day": 19, 
+        "readings": [ 
+          { "book": "Luke", "verses": "23:32-37" }, 
+          { "book": "Hebrews", "verses": "10:1-18" }, 
+          { "book": "Proverbs", "verses": "26:17-28" }, 
+          { "book": "Isaiah", "verses": "44-45" } 
+        ] 
+      },
+      { 
+        "day": 20, 
+        "readings": [ 
+          { "book": "Luke", "verses": "23:38-43" }, 
+          { "book": "Hebrews", "verses": "10:19-39" }, 
+          { "book": "Proverbs", "verses": "27:1-14" }, 
+          { "book": "Isaiah", "verses": "46-48" } 
+        ] 
+      },
+      { 
+        "day": 21, 
         "readings": [] 
       },
       { 
-        "day": 31, 
+        "day": 22, 
+        "readings": [ 
+          { "book": "Luke", "verses": "23:44-49" }, 
+          { "book": "Hebrews", "verses": "11:1-16" }, 
+          { "book": "Proverbs", "verses": "27:15-27" }, 
+          { "book": "Isaiah", "verses": "49-50" } 
+        ] 
+      },
+      { 
+        "day": 23, 
+        "readings": [ 
+          { "book": "Luke", "verses": "23:50-56" }, 
+          { "book": "Hebrews", "verses": "11:17-31" }, 
+          { "book": "Proverbs", "verses": "28:1-14" }, 
+          { "book": "Isaiah", "verses": "51-53" } 
+        ] 
+      },
+      { 
+        "day": 24, "readings": [] },
+      { 
+        "day": 25, 
+        "readings": [ 
+          { "book": "Luke", "verses": "24:1-12" }, 
+          { "book": "Hebrews", "verses": "11:32-40" }, 
+          { "book": "Proverbs", "verses": "28:15-28" }, 
+          { "book": "Isaiah", "verses": "54-55" } 
+        ] 
+      },
+      { 
+        "day": 26, 
+        "readings": [ 
+          { "book": "Luke", "verses": "24:13-27" }, 
+          { "book": "Hebrews", "verses": "12:1-13" }, 
+          { "book": "Proverbs", "verses": "29:1-14" }, 
+          { "book": "Isaiah", "verses": "56-58" } 
+        ] 
+      },
+      { 
+        "day": 27, 
+        "readings": [ 
+          { "book": "Luke", "verses": "24:28-35" }, 
+          { "book": "Hebrews", "verses": "12:14-29" }, 
+          { "book": "Proverbs", "verses": "29:15-27" }, 
+          { "book": "Isaiah", "verses": "59-61" } 
+        ] 
+      },
+      { 
+        "day": 28, 
         "readings": [] 
+      },
+      { 
+        "day": 29, 
+        "readings": [ 
+          { "book": "Luke", "verses": "24:36-44" }, 
+          { "book": "Hebrews", "verses": "13:1-8" }, 
+          { "book": "Proverbs", "verses": "30" }, 
+          { "book": "Isaiah", "verses": "62-64" } 
+        ] 
+      },
+      { 
+        "day": 30, 
+        "readings": [ 
+          { "book": "Luke", "verses": "24:45-53" }, 
+          { "book": "Hebrews", "verses": "13:9-25" }, 
+          { "book": "Proverbs", "verses": "31" }, 
+          { "book": "Isaiah", "verses": "65-66" } 
+        ] 
       }
     ]
   }
-  
 ]
