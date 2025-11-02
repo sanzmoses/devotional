@@ -2476,5 +2476,243 @@
         "readings": [] 
       }
     ]
+  },
+  {
+    "month": "November",
+    "days": [
+      { 
+        "day": 1, 
+        "readings": [] 
+      },
+      { 
+        "day": 2, 
+        "readings": [] 
+      },
+      {
+        "day": 3,
+        "readings": [
+          { "book": "John", "verses": "7:37-44" }, 
+          { "book": "2 Peter", "verses": "1:1-11" }, 
+          { "book": "Job", "verses": "1" }, 
+          { "book": "Ezekiel", "verses": "1-3" } 
+        ]
+      },
+      { 
+        "day": 4, 
+        "readings": [ 
+          { "book": "John", "verses": "7:45-53" }, 
+          { "book": "2 Peter", "verses": "1:12-21" }, 
+          { "book": "Job", "verses": "2" }, 
+          { "book": "Ezekiel", "verses": "4-8" } 
+        ] 
+      },
+      { 
+        "day": 5, 
+        "readings": [ 
+          { "book": "John", "verses": "8:1-11" }, 
+          { "book": "2 Peter", "verses": "2:1-9" }, 
+          { "book": "Job", "verses": "3" }, 
+          { "book": "Ezekiel", "verses": "9-12" } 
+        ] 
+      },
+      { 
+        "day": 6, 
+        "readings": [ 
+          { "book": "John", "verses": "8:12-20" }, 
+          { "book": "2 Peter", "verses": "2:10-16" }, 
+          { "book": "Job", "verses": "4" }, 
+          { "book": "Ezekiel", "verses": "13-15" } 
+        ] 
+      },
+      { 
+        "day": 7, 
+        "readings": [ 
+          { "book": "John", "verses": "8:21-30" }, 
+          { "book": "2 Peter", "verses": "2:17-22" }, 
+          { "book": "Job", "verses": "5" }, 
+          { "book": "Ezekiel", "verses": "16" } 
+        ] 
+      },
+      { 
+        "day": 8, 
+        "readings": [ 
+          { "book": "John", "verses": "8:31-47" }, 
+          { "book": "2 Peter", "verses": "3:1-9" }, 
+          { "book": "Job", "verses": "6" }, 
+          { "book": "Ezekiel", "verses": "17-19" } 
+        ] 
+      },
+      { 
+        "day": 9, 
+        "readings": [ 
+          { "book": "John", "verses": "8:48-59" }, 
+          { "book": "2 Peter", "verses": "3:10-18" }, 
+          { "book": "Job", "verses": "7" }, 
+          { "book": "Ezekiel", "verses": "20-21" } 
+        ] 
+      },
+      { 
+        "day": 10, 
+        "readings": [ 
+          { "book": "John", "verses": "9:1-12" }, 
+          { "book": "1 John", "verses": "1:1-4" }, 
+          { "book": "Job", "verses": "8" }, 
+          { "book": "Ezekiel", "verses": "22-23" } ] },
+      { 
+        "day": 11, 
+        "readings": [ 
+          { "book": "John", "verses": "9:13-25" }, 
+          { "book": "1 John", "verses": "1:5-10" }, 
+          { "book": "Job", "verses": "9:1-20" }, 
+          { "book": "Ezekiel", "verses": "24-26" } ] },
+      { 
+        "day": 12, 
+        "readings": [ 
+          { "book": "John", "verses": "9:26-41" }, 
+          { "book": "1 John", "verses": "2:1-11" }, 
+          { "book": "Job", "verses": "9:21-35" }, 
+          { "book": "Ezekiel", "verses": "27-28" } ] },
+      { 
+        "day": 13, 
+        "readings": [ 
+          { "book": "John", "verses": "10:1-10" }, 
+          { "book": "1 John", "verses": "2:12-17" }, 
+          { "book": "Job", "verses": "10" }, 
+          { "book": "Ezekiel", "verses": "29-30" } ] },
+      { 
+        "day": 14, 
+        "readings": [ 
+          { "book": "John", "verses": "10:11-21" }, 
+          { "book": "1 John", "verses": "2:18-23" }, 
+          { "book": "Job", "verses": "11" }, 
+          { "book": "Ezekiel", "verses": "31-32" } ] },
+      { 
+        "day": 15, 
+        "readings": [ 
+          { "book": "John", "verses": "10:22-42" }, 
+          { "book": "1 John", "verses": "2:24-29" }, 
+          { "book": "Job", "verses": "12" }, 
+          { "book": "Ezekiel", "verses": "33-34" } ] },
+      { 
+        "day": 16, 
+        "readings": []
+      },
+      { 
+        "day": 17, 
+        "readings": [ 
+          { "book": "John", "verses": "11:1-16" }, 
+          { "book": "1 John", "verses": "3:1-10" }, 
+          { "book": "Job", "verses": "13" }, 
+          { "book": "Ezekiel", "verses": "35-37" } 
+        ] 
+      },
+      { 
+        "day": 18, 
+        "readings": [ 
+          { "book": "John", "verses": "11:17-37" }, 
+          { "book": "1 John", "verses": "3:11-18" }, 
+          { "book": "Job", "verses": "14" }, 
+          { "book": "Ezekiel", "verses": "38-39" } 
+        ] 
+      },
+      { 
+        "day": 19, 
+        "readings": [ 
+          { "book": "John", "verses": "11:38-44" }, 
+          { "book": "1 John", "verses": "3:19-24" }, 
+          { "book": "Job", "verses": "15:1-16" }, 
+          { "book": "Ezekiel", "verses": "40-41" } 
+        ] 
+      },
+      { 
+        "day": 20, 
+        "readings": [ 
+          { "book": "John", "verses": "11:45-57" }, 
+          { "book": "1 John", "verses": "4:1-6" }, 
+          { "book": "Job", "verses": "15:17-35" }, 
+          { "book": "Ezekiel", "verses": "42-44" } 
+        ] 
+      },
+      { 
+        "day": 21, 
+        "readings": [ 
+          { "book": "John", "verses": "12:1-11" }, 
+          { "book": "1 John", "verses": "4:7-21" }, 
+          { "book": "Job", "verses": "16" }, 
+          { "book": "Ezekiel", "verses": "45-47" } 
+        ] 
+      },
+      { 
+        "day": 22, 
+        "readings": [ 
+          { "book": "John", "verses": "12:12-19" }, 
+          { "book": "1 John", "verses": "5:1-12" }, 
+          { "book": "Job", "verses": "17" }, 
+          { "book": "Ezekiel", "verses": "48" } 
+        ] 
+      },
+      { 
+        "day": 23, 
+        "readings": []
+       },
+      { 
+        "day": 24, 
+        "readings": [ 
+          { "book": "John", "verses": "12:20-36" }, 
+          { "book": "1 John", "verses": "5:13-21" }, 
+          { "book": "Job", "verses": "18" }, 
+          { "book": "Daniel", "verses": "1-2" } 
+        ] 
+      },
+      { 
+        "day": 25, 
+        "readings": [ 
+          { "book": "John", "verses": "12:37-50" }, 
+          { "book": "2 John", "verses": "1-13" }, 
+          { "book": "Job", "verses": "19" }, 
+          { "book": "Daniel", "verses": "3-4" } 
+        ] 
+      },
+      { 
+        "day": 26, 
+        "readings": [ 
+          { "book": "John", "verses": "13:1-11" }, 
+          { "book": "3 John", "verses": "1-14" }, 
+          { "book": "Job", "verses": "20" }, 
+          { "book": "Daniel", "verses": "5-6" } 
+        ] 
+      },
+      { 
+        "day": 27, 
+        "readings": [ 
+          { "book": "John", "verses": "13:12-17" }, 
+          { "book": "Jude", "verses": "1-7" }, 
+          { "book": "Job", "verses": "21:1-21" }, 
+          { "book": "Daniel", "verses": "7-8" } 
+        ] 
+      },
+      { 
+        "day": 28, 
+        "readings": [ 
+          { "book": "John", "verses": "13:18-30" }, 
+          { "book": "Jude", "verses": "8-16" }, 
+          { "book": "Job", "verses": "21:22-34" }, 
+          { "book": "Daniel", "verses": "9" } 
+        ] 
+      },
+      { 
+        "day": 29, 
+        "readings": [ 
+          { "book": "John", "verses": "13:31-38" }, 
+          { "book": "Jude", "verses": "17-25" }, 
+          { "book": "Job", "verses": "22" }, 
+          { "book": "Daniel", "verses": "10-12" } 
+        ] 
+      },
+      { 
+        "day": 30, 
+        "readings": []
+       }
+    ]
   }
 ]
