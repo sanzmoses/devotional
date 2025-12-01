@@ -2714,5 +2714,41 @@
         "readings": []
        }
     ]
+  },
+  {
+    "month": "December",
+    "days": [
+      { "day": 1,  "readings": [ { "book": "John", "verses": "14:1-14" }, { "book": "Revelation", "verses": "1:1-8" }, { "book": "Job", "verses": "23" }, { "book": "Hosea", "verses": "1-3" } ] },
+      { "day": 2,  "readings": [ { "book": "John", "verses": "14:15-21" }, { "book": "Revelation", "verses": "1:9-20" }, { "book": "Job", "verses": "24" }, { "book": "Hosea", "verses": "4-6" } ] },
+      { "day": 3,  "readings": [ { "book": "John", "verses": "14:22-31" }, { "book": "Revelation", "verses": "2:1-7" }, { "book": "Job", "verses": "25-26" }, { "book": "Hosea", "verses": "7-8" } ] },
+      { "day": 4,  "readings": [ { "book": "John", "verses": "15:1-8" }, { "book": "Revelation", "verses": "2:8-17" }, { "book": "Job", "verses": "27" }, { "book": "Hosea", "verses": "9-12" } ] },
+      { "day": 5,  "readings": [ { "book": "John", "verses": "15:9-17" }, { "book": "Revelation", "verses": "2:18-29" }, { "book": "Job", "verses": "28" }, { "book": "Hosea", "verses": "13-14" } ] },
+      { "day": 6,  "readings": [ { "book": "John", "verses": "15:18-27" }, { "book": "Revelation", "verses": "3:1-6" }, { "book": "Job", "verses": "29" }, { "book": "Joel", "verses": "1" } ] },
+      { "day": 7,  "readings": [] },
+      { "day": 8,  "readings": [ { "book": "John", "verses": "16:1-11" }, { "book": "Revelation", "verses": "3:7-13" }, { "book": "Job", "verses": "30" }, { "book": "Joel", "verses": "2-3" } ] },
+      { "day": 9,  "readings": [ { "book": "John", "verses": "16:12-24" }, { "book": "Revelation", "verses": "3:14-22" }, { "book": "Job", "verses": "31:1-23" }, { "book": "Amos", "verses": "1-2" } ] },
+      { "day": 10, "readings": [ { "book": "John", "verses": "16:25-33" }, { "book": "Revelation", "verses": "4" }, { "book": "Job", "verses": "31:24-40" }, { "book": "Amos", "verses": "3-4" } ] },
+      { "day": 11, "readings": [ { "book": "John", "verses": "17:1-5" }, { "book": "Revelation", "verses": "5" }, { "book": "Job", "verses": "32" }, { "book": "Amos", "verses": "5-6" } ] },
+      { "day": 12, "readings": [ { "book": "John", "verses": "17:6-19" }, { "book": "Revelation", "verses": "6" }, { "book": "Job", "verses": "33:1-11" }, { "book": "Amos", "verses": "7-9" } ] },
+      { "day": 13, "readings": [ { "book": "John", "verses": "17:20-26" }, { "book": "Revelation", "verses": "7" }, { "book": "Job", "verses": "33:12-33" }, { "book": "Obadiah", "verses": "1-21" } ] },
+      { "day": 14, "readings": [] },
+      { "day": 15, "readings": [ { "book": "John", "verses": "18:1-18" }, { "book": "Revelation", "verses": "10" }, { "book": "Job", "verses": "34:1-20" }, { "book": "Jonah", "verses": "1-4" } ] },
+      { "day": 16, "readings": [ { "book": "John", "verses": "18:19-27" }, { "book": "Revelation", "verses": "11" }, { "book": "Job", "verses": "34:21-37" }, { "book": "Micah", "verses": "1-3" } ] },
+      { "day": 17, "readings": [ { "book": "John", "verses": "18:28-40" }, { "book": "Revelation", "verses": "12" }, { "book": "Job", "verses": "35" }, { "book": "Micah", "verses": "4-5" } ] },
+      { "day": 18, "readings": [ { "book": "John", "verses": "19:1-16" }, { "book": "Revelation", "verses": "13" }, { "book": "Job", "verses": "36:1-23" }, { "book": "Micah", "verses": "6-7" } ] },
+      { "day": 19, "readings": [ { "book": "John", "verses": "19:17-27" }, { "book": "Revelation", "verses": "14" }, { "book": "Job", "verses": "36:16-33" }, { "book": "Nahum", "verses": "1-3" } ] },
+      { "day": 20, "readings": [ { "book": "John", "verses": "19:28-37" }, { "book": "Revelation", "verses": "15" }, { "book": "Job", "verses": "37" }, { "book": "Habakkuk", "verses": "1-3" } ] },
+      { "day": 21, "readings": [] },
+      { "day": 22, "readings": [ { "book": "John", "verses": "19:38-42" }, { "book": "Revelation", "verses": "16" }, { "book": "Job", "verses": "38:1-21" }, { "book": "Zephaniah", "verses": "1-2" } ] },
+      { "day": 23, "readings": [ { "book": "John", "verses": "20:1-9" }, { "book": "Revelation", "verses": "17" }, { "book": "Job", "verses": "38:22-41" }, { "book": "Zephaniah", "verses": "3" } ] },
+      { "day": 24, "readings": [ { "book": "John", "verses": "20:10-18" }, { "book": "Revelation", "verses": "18" }, { "book": "Job", "verses": "39" }, { "book": "Haggai", "verses": "1-2" } ] },
+      { "day": 25, "readings": [ { "book": "John", "verses": "20:19-23" }, { "book": "Revelation", "verses": "19" }, { "book": "Job", "verses": "40" }, { "book": "Zechariah", "verses": "1-5" } ] },
+      { "day": 26, "readings": [ { "book": "John", "verses": "20:24-31" }, { "book": "Revelation", "verses": "20" }, { "book": "Job", "verses": "41:1-11" }, { "book": "Zechariah", "verses": "6-9" } ] },
+      { "day": 27, "readings": [ { "book": "John", "verses": "21:1-14" }, { "book": "Revelation", "verses": "21" }, { "book": "Job", "verses": "41:12-34" }, { "book": "Zechariah", "verses": "10-14" } ] },
+      { "day": 28, "readings": [] },
+      { "day": 29, "readings": [ { "book": "John", "verses": "21:15-25" }, { "book": "Revelation", "verses": "22" }, { "book": "Job", "verses": "42" }, { "book": "Malachi", "verses": "1-4" } ] },
+      { "day": 30, "readings": [] },
+      { "day": 31, "readings": [] }
+    ]
   }
 ]
