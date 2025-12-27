@@ -2743,12 +2743,35 @@
       { "day": 23, "readings": [ { "book": "John", "verses": "20:1-9" }, { "book": "Revelation", "verses": "17" }, { "book": "Job", "verses": "38:22-41" }, { "book": "Zephaniah", "verses": "3" } ] },
       { "day": 24, "readings": [ { "book": "John", "verses": "20:10-18" }, { "book": "Revelation", "verses": "18" }, { "book": "Job", "verses": "39" }, { "book": "Haggai", "verses": "1-2" } ] },
       { "day": 25, "readings": [ { "book": "John", "verses": "20:19-23" }, { "book": "Revelation", "verses": "19" }, { "book": "Job", "verses": "40" }, { "book": "Zechariah", "verses": "1-5" } ] },
-      { "day": 26, "readings": [ { "book": "John", "verses": "20:24-31" }, { "book": "Revelation", "verses": "20" }, { "book": "Job", "verses": "41:1-11" }, { "book": "Zechariah", "verses": "6-9" } ] },
-      { "day": 27, "readings": [ { "book": "John", "verses": "21:1-14" }, { "book": "Revelation", "verses": "21" }, { "book": "Job", "verses": "41:12-34" }, { "book": "Zechariah", "verses": "10-14" } ] },
-      { "day": 28, "readings": [] },
-      { "day": 29, "readings": [ { "book": "John", "verses": "21:15-25" }, { "book": "Revelation", "verses": "22" }, { "book": "Job", "verses": "42" }, { "book": "Malachi", "verses": "1-4" } ] },
-      { "day": 30, "readings": [] },
-      { "day": 31, "readings": [] }
+      { "day": 26, "readings": [ 
+        { "book": "John", "verses": "20:24-31" }, 
+        { "book": "Revelation", "verses": "20" }, 
+        { "book": "Job", "verses": "41:1-11" }, 
+        { "book": "Zechariah", "verses": "6-9" } 
+      ] },
+      { "day": 27, "readings": [ 
+        { "book": "John", "verses": "21:1-14" }, 
+        { "book": "Revelation", "verses": "20:11-15" }, 
+        { "book": "Job", "verses": "41:12-34" }, 
+        { "book": "Zechariah", "verses": "10-14" } 
+      ] },
+      { "day": 28, "readings": [
+        { "book": "Zechariah", "verses": "6-9" } 
+      ] },
+      { "day": 29, "readings": [ 
+        { "book": "John", "verses": "21:15-25" }, 
+        { "book": "Revelation", "verses": "22" }, 
+        { "book": "Job", "verses": "42" }, 
+        { "book": "Zechariah", "verses": "10-14" } 
+      ] },
+      { "day": 30, "readings": [
+        { "book": "Revelation", "verses": "21" }, 
+        { "book": "Malachi", "verses": "1-2" } 
+      ] },
+      { "day": 31, "readings": [
+        { "book": "Revelation", "verses": "22" }, 
+        { "book": "Malachi", "verses": "3-4" } 
+      ] }
     ]
   }
 ]
