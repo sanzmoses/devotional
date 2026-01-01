@@ -94,6 +94,26 @@ watch(readings, async (newReadings) => {
 
   .readings-container {
     flex-direction: row;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .plans-layout {
+    flex-direction: column;
+  }
+
+  .readings-container {
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .plans-layout {
+    min-height: 100vh;
   }
 }
 </style>

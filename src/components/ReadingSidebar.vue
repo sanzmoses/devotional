@@ -14,13 +14,8 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
 <template>
   <div class="sidebar-section">
     <div class="sidebar-content">
-      <h1 class="sidebar-title">DAILY READINGS</h1>
+      <h1 class="sidebar-title">Daily Devotional</h1>
       <p class="sidebar-subtitle">Bible in one year with Kaye</p>
-      
-      <div class="sidebar-description">
-        <p>Journey through the Bible with daily readings from the Old Testament, New Testament, and Psalms.</p>
-        <p class="mt-3">Each day brings fresh wisdom and spiritual nourishment to guide your walk with God.</p>
-      </div>
 
       <!-- Date Display -->
       <div class="date-section">
@@ -34,8 +29,7 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
           class="nav-btn"
           @click="emit('previous-day')"
         >
-          <ChevronLeft class="w-6 h-6" />
-          Previous Day
+          <ChevronLeft class="w-10 h-10" />
         </Button>
         <Button 
           text
@@ -49,8 +43,7 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
           class="nav-btn"
           @click="emit('next-day')"
         >
-          Next Day
-          <ChevronRight class="w-6 h-6" />
+          <ChevronRight class="w-10 h-10" />
         </Button>
       </div>
     </div>
@@ -67,6 +60,8 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
   flex-direction: column;
   overflow-y: auto;
   max-width: 35vw;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar-content {
@@ -77,19 +72,18 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
   font-size: 2rem;
   font-weight: 700;
   letter-spacing: 0.05em;
-  margin-bottom: 0.5rem;
   line-height: 1.2;
 }
 
 .sidebar-subtitle {
-  font-size: 0.95rem;
+  font-size: 1.3rem;
   opacity: 0.9;
   margin-bottom: 2rem;
   font-weight: 300;
 }
 
 .sidebar-description {
-  font-size: 0.875rem;
+  font-size: 1.5rem;
   line-height: 1.6;
   opacity: 0.85;
   margin-bottom: 2.5rem;
@@ -100,18 +94,21 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
   padding: 1.5rem 0;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  width: 100%;
 }
 
 .date-display {
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 2rem;
+  font-weight: 700;
   text-align: center;
   margin: 0;
 }
 
 .nav-buttons {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
   gap: 0.75rem;
 }
 
@@ -138,6 +135,8 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
   .sidebar-section {
     flex: 0 0 auto;
     padding: 2rem 1.5rem;
+    max-width: none;
+    width: 100%;
   }
 
   .sidebar-title {
@@ -148,6 +147,8 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
 @media (max-width: 768px) {
   .sidebar-section {
     padding: 1.5rem 1rem;
+    max-width: none;
+    width: 100%;
   }
 
   .sidebar-title {

@@ -119,7 +119,7 @@ const getVersePreview = (text) => {
 .reading-icon {
   width: 3rem;
   height: 3rem;
-  opacity: 0.9;
+  opacity: 0;
 }
 
 .reading-title-container {
@@ -139,7 +139,7 @@ const getVersePreview = (text) => {
   font-weight: bold;
   position: absolute;
   top: 30%;
-  right: 0;
+  left: 0;
   transform: translateY(-90%);
 }
 
