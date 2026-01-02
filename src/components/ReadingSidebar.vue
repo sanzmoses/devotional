@@ -15,7 +15,7 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
   <div class="sidebar-section">
     <div class="sidebar-content">
       <h1 class="sidebar-title">Daily Devotional</h1>
-      <p class="sidebar-subtitle">Bible in one year with Kaye</p>
+      <p class="sidebar-subtitle">Bible in one year with <b>Kaye</b></p>
 
       <!-- Date Display -->
       <div class="date-section">
@@ -53,7 +53,7 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
 <style scoped>
 .sidebar-section {
   flex: 1;
-  background: linear-gradient(180deg, #6b6b6b 0%, #5a5a5a 100%);
+  background: linear-gradient(300deg, #515151 0%, #1a1a1a 100%);
   color: white;
   padding: 3rem 2rem;
   display: flex;
@@ -66,6 +66,8 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
 
 .sidebar-content {
   max-width: 100%;
+  width: 100%;
+  text-align: center;
 }
 
 .sidebar-title {
@@ -77,9 +79,13 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
 
 .sidebar-subtitle {
   font-size: 1.3rem;
-  opacity: 0.9;
+  opacity: 1;
   margin-bottom: 2rem;
   font-weight: 300;
+}
+
+.sidebar-subtitle b {
+  font-weight: 700;
 }
 
 .sidebar-description {
@@ -152,7 +158,7 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
   }
 
   .sidebar-title {
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
 
   .sidebar-description {
