@@ -250,12 +250,16 @@
       {
         "day": 1,
         "readings": [
-          { "book": "Psalms",  "verses": "32" },
+          { "book": "Psalms",  "verses": "32" }
         ]
       },
       {
         "day": 2,
-        "readings": []
+        "readings": [
+          { "book": "Matthew", "verses": "11:20-30" },
+          { "book": "Psalms",  "verses": "33" },
+          { "book": "Genesis", "verses": "28" }
+        ]
       },
       {
         "day": 3,
