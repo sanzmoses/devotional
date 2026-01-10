@@ -22,6 +22,10 @@ const formattedDate = computed(() => {
   });
 });
 
+const handleDateSelected = (selectedDate) => {
+  readingStore.setDate(selectedDate);
+};
+
 const readings = computed(() => readingStore.currentDayReadings);
 const readingsWithUrls = computed(() => bibleGatewayStore.getReadingUrls(readings.value));
 
@@ -41,9 +45,11 @@ watch(readings, async (newReadings) => {
   <main class="plans-layout">
     <ReadingSidebar
       :formatted-date="formattedDate"
+      :current-date="readingStore.currentDate"
       @previous-day="readingStore.previousDay"
       @next-day="readingStore.nextDay"
       @set-today="readingStore.setToday"
+      @date-selected="handleDateSelected"
     />
 
     <div v-if="!readings" class="readings-container">

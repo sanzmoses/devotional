@@ -26,6 +26,7 @@ import DataTable from 'primevue/datatable';
 import Column from 'primevue/column';
 import Dialog from 'primevue/dialog';
 import Menu from 'primevue/menu';
+import Popover from 'primevue/popover';
 
 const app = createApp(App)
 
@@ -52,6 +53,7 @@ app.component('DataTable', DataTable);
 app.component('Column', Column);
 app.component('Dialog', Dialog);
 app.component('Menu', Menu);
+app.component('Popover', Popover);
 
 app.use(createPinia())
 app.use(router)

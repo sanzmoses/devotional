@@ -1,14 +1,32 @@
 <script setup>
+import { ref } from 'vue';
 import { ChevronLeft, ChevronRight } from 'lucide-vue-next';
 
-defineProps({
+const props = defineProps({
   formattedDate: {
     type: String,
+    required: true
+  },
+  currentDate: {
+    type: Date,
     required: true
   }
 });
 
-const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
+const emit = defineEmits(['previous-day', 'next-day', 'set-today', 'date-selected']);
+
+const datePopover = ref();
+const selectedDate = ref(props.currentDate);
+
+const toggleDatePicker = (event) => {
+  datePopover.value.toggle(event);
+};
+
+const onDateSelect = (date) => {
+  selectedDate.value = date;
+  emit('date-selected', date);
+  datePopover.value.hide();
+};
 </script>
 
 <template>
@@ -19,7 +37,17 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
 
       <!-- Date Display -->
       <div class="date-section">
-        <h2 class="date-display">{{ formattedDate }}</h2>
+        <h2 class="date-display clickable-date" @click="toggleDatePicker">
+          {{ formattedDate }}
+        </h2>
+        <Popover ref="datePopover" class="date-popover">
+          <Calendar 
+            v-model="selectedDate"
+            @date-select="onDateSelect"
+            :inline="true"
+            class="date-picker"
+          />
+        </Popover>
       </div>
 
       <!-- Navigation Buttons -->
@@ -108,6 +136,28 @@ const emit = defineEmits(['previous-day', 'next-day', 'set-today']);
   font-weight: 700;
   text-align: center;
   margin: 0;
+}
+
+.clickable-date {
+  cursor: pointer;
+  transition: all 0.2s ease;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.clickable-date:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.02);
+}
+
+.date-popover {
+  z-index: 1000;
+}
+
+.date-picker {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 .nav-buttons {
