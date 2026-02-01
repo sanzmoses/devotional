@@ -10,8 +10,10 @@ const readingStore = useReadingStore();
 const bibleGatewayStore = useBibleGatewayStore();
 const bibleApiStore = useBibleApiStore();
 
-// Initialize to today's date
-readingStore.setToday();
+// Initialize the store and set to today's date
+readingStore.initialize().then(() => {
+  readingStore.setToday();
+});
 
 const formattedDate = computed(() => {
   const date = readingStore.currentDate;
@@ -22,8 +24,8 @@ const formattedDate = computed(() => {
   });
 });
 
-const handleDateSelected = (selectedDate) => {
-  readingStore.setDate(selectedDate);
+const handleDateSelected = async (selectedDate) => {
+  await readingStore.setDate(selectedDate);
 };
 
 const readings = computed(() => readingStore.currentDayReadings);
@@ -46,9 +48,9 @@ watch(readings, async (newReadings) => {
     <ReadingSidebar
       :formatted-date="formattedDate"
       :current-date="readingStore.currentDate"
-      @previous-day="readingStore.previousDay"
-      @next-day="readingStore.nextDay"
-      @set-today="readingStore.setToday"
+      @previous-day="() => readingStore.previousDay()"
+      @next-day="() => readingStore.nextDay()"
+      @set-today="() => readingStore.setToday()"
       @date-selected="handleDateSelected"
     />
 

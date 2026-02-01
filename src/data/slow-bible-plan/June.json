@@ -1,0 +1,550 @@
+{
+  "month": "June",
+  "days": [
+    {
+      "day": 1,
+      "readings": []
+    },
+    {
+      "day": 2,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "1:1-25"
+        },
+        {
+          "book": "Ephesians",
+          "verses": "1:1-14"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:1-8"
+        },
+        {
+          "book": "1 Kings",
+          "verses": "1"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "1:26-38"
+        },
+        {
+          "book": "Ephesians",
+          "verses": "1:15-23"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:9-16"
+        },
+        {
+          "book": "1 Kings",
+          "verses": "2-3"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "1:39-56"
+        },
+        {
+          "book": "Ephesians",
+          "verses": "2:1-10"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:17-24"
+        },
+        {
+          "book": "1 Kings",
+          "verses": "4-5"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "1:57-66"
+        },
+        {
+          "book": "Ephesians",
+          "verses": "2:11-22"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:25-32"
+        },
+        {
+          "book": "1 Kings",
+          "verses": "6-7"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "1:67-80"
+        },
+        {
+          "book": "Ephesians",
+          "verses": "3:1-13"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:33-40"
+        },
+        {
+          "book": "1 Kings",
+          "verses": "8"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "2:1-20"
+        },
+        {
+          "book": "Ephesians",
+          "verses": "3:14-21"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:41-48"
+        },
+        {
+          "book": "1 Kings",
+          "verses": "9-10"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "readings": []
+    },
+    {
+      "day": 9,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "2:21-40"
+        },
+        {
+          "book": "Ephesians",
+          "verses": "4:1-16"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:49-56"
+        },
+        {
+          "book": "1 Kings",
+          "verses": "11"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "2:41-52"
+        },
+        {
+          "book": "Ephesians",
+          "verses": "4:17-24"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:57-64"
+        },
+        {
+          "book": "1 Kings",
+          "verses": "12"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "3:1-20"
+        },
+        {
+          "book": "Ephesians",
+          "verses": "4:25-32"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:65-72"
+        },
+        {
+          "book": "1 Kings",
+          "verses": "13-14"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "3:21-38"
+        },
+        {
+          "book": "Ephesians",
+          "verses": "5:1-21"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:73-80"
+        },
+        {
+          "book": "1 Kings",
+          "verses": "15-16"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "4:1-12"
+        },
+        {
+          "book": "Ephesians",
+          "verses": "5:22-33"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:81-88"
+        },
+        {
+          "book": "1 Kings",
+          "verses": "17-18"
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "4:13-30"
+        },
+        {
+          "book": "Ephesians",
+          "verses": "6:1-9"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:89-96"
+        },
+        {
+          "book": "1 Kings",
+          "verses": "19-20"
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "readings": []
+    },
+    {
+      "day": 16,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "4:31-37"
+        },
+        {
+          "book": "Ephesians",
+          "verses": "6:10-24"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:97-104"
+        },
+        {
+          "book": "1 Kings",
+          "verses": "21-22"
+        }
+      ]
+    },
+    {
+      "day": 17,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "4:38-44"
+        },
+        {
+          "book": "Philippians",
+          "verses": "1:1-11"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:105-112"
+        },
+        {
+          "book": "2 Kings",
+          "verses": "1-3"
+        }
+      ]
+    },
+    {
+      "day": 18,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "5:1-11"
+        },
+        {
+          "book": "Philippians",
+          "verses": "1:12-20"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:113-120"
+        },
+        {
+          "book": "2 Kings",
+          "verses": "4-5"
+        }
+      ]
+    },
+    {
+      "day": 19,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "5:12-16"
+        },
+        {
+          "book": "Philippians",
+          "verses": "1:21-30"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:121-128"
+        },
+        {
+          "book": "2 Kings",
+          "verses": "6-7"
+        }
+      ]
+    },
+    {
+      "day": 20,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "5:17-26"
+        },
+        {
+          "book": "Philippians",
+          "verses": "2:1-11"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:129-136"
+        },
+        {
+          "book": "2 Kings",
+          "verses": "8-9"
+        }
+      ]
+    },
+    {
+      "day": 21,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "5:27-32"
+        },
+        {
+          "book": "Philippians",
+          "verses": "2:12-18"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:137-144"
+        },
+        {
+          "book": "2 Kings",
+          "verses": "10-11"
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "readings": []
+    },
+    {
+      "day": 23,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "5:33-39"
+        },
+        {
+          "book": "Philippians",
+          "verses": "2:19-30"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:145-152"
+        },
+        {
+          "book": "2 Kings",
+          "verses": "12-13"
+        }
+      ]
+    },
+    {
+      "day": 24,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "6:1-16"
+        },
+        {
+          "book": "Philippians",
+          "verses": "3:1-9"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:153-160"
+        },
+        {
+          "book": "2 Kings",
+          "verses": "14-15"
+        }
+      ]
+    },
+    {
+      "day": 25,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "6:17-26"
+        },
+        {
+          "book": "Philippians",
+          "verses": "3:10-14"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:161-168"
+        },
+        {
+          "book": "2 Kings",
+          "verses": "16-17"
+        }
+      ]
+    },
+    {
+      "day": 26,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "6:27-36"
+        },
+        {
+          "book": "Philippians",
+          "verses": "3:15-21"
+        },
+        {
+          "book": "Psalms",
+          "verses": "119:169-176"
+        },
+        {
+          "book": "2 Kings",
+          "verses": "18-19"
+        }
+      ]
+    },
+    {
+      "day": 27,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "6:37-42"
+        },
+        {
+          "book": "Philippians",
+          "verses": "4:1-7"
+        },
+        {
+          "book": "Psalms",
+          "verses": "120"
+        },
+        {
+          "book": "2 Kings",
+          "verses": "20-21"
+        }
+      ]
+    },
+    {
+      "day": 28,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "6:43-49"
+        },
+        {
+          "book": "Philippians",
+          "verses": "4:8-13"
+        },
+        {
+          "book": "Psalms",
+          "verses": "121"
+        },
+        {
+          "book": "2 Kings",
+          "verses": "22-23"
+        }
+      ]
+    },
+    {
+      "day": 29,
+      "readings": []
+    },
+    {
+      "day": 30,
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "7:1-10"
+        },
+        {
+          "book": "Philippians",
+          "verses": "4:14-23"
+        },
+        {
+          "book": "Psalms",
+          "verses": "122"
+        },
+        {
+          "book": "2 Kings",
+          "verses": "24-25"
+        }
+      ]
+    }
+  ]
+}

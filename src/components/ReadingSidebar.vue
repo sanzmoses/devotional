@@ -1,6 +1,9 @@
 <script setup>
 import { ref } from 'vue';
 import { ChevronLeft, ChevronRight } from 'lucide-vue-next';
+import { useReadingStore } from '../stores/reading';
+
+const readingStore = useReadingStore();
 
 const props = defineProps({
   formattedDate: {
@@ -14,6 +17,10 @@ const props = defineProps({
 });
 
 const emit = defineEmits(['previous-day', 'next-day', 'set-today', 'date-selected']);
+
+const handlePlanChange = async (selectedPlanId) => {
+  await readingStore.setPlan(selectedPlanId);
+};
 
 const datePopover = ref();
 const selectedDate = ref(props.currentDate);
@@ -34,6 +41,21 @@ const onDateSelect = (date) => {
     <div class="sidebar-content">
       <h1 class="sidebar-title">Daily Devotional</h1>
       <p class="sidebar-subtitle">Bible in one year with <b>Kaye</b></p>
+
+      <!-- Plan Selection 
+      <div class="plan-selection">
+        <label for="plan-select" class="plan-label">Reading Plan:</label>
+        <Dropdown 
+          id="plan-select"
+          :options="readingStore.availablePlans"
+          option-label="name"
+          option-value="id"
+          v-model="readingStore.currentPlan.id"
+          @change="handlePlanChange"
+          class="plan-dropdown"
+        />
+      </div>
+      -->
 
       <!-- Date Display -->
       <div class="date-section">
@@ -158,6 +180,32 @@ const onDateSelect = (date) => {
   background: white;
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.plan-selection {
+  margin-bottom: 1.5rem;
+  text-align: left;
+  width: 100%;
+}
+
+.plan-label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.plan-dropdown {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.plan-dropdown:focus {
+  border-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
 }
 
 .nav-buttons {
