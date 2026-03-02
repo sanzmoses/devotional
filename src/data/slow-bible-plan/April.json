@@ -6,19 +6,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "1:1-8"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "1:1-17"
+          "verses": "1:21-34"
         },
         {
           "book": "Psalms",
-          "verses": "72"
+          "verses": "91"
         },
         {
-          "book": "Joshua",
-          "verses": "1-2"
+          "book": "Exodus",
+          "verses": "28"
         }
       ]
     },
@@ -27,19 +23,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "1:9-20"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "1:18-31"
+          "verses": "1:35-45"
         },
         {
           "book": "Psalms",
-          "verses": "73"
+          "verses": "92"
         },
         {
-          "book": "Joshua",
-          "verses": "3-5"
+          "book": "Exodus",
+          "verses": "29"
         }
       ]
     },
@@ -48,19 +40,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "1:21-34"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "2"
+          "verses": "2:1-12"
         },
         {
           "book": "Psalms",
-          "verses": "74"
+          "verses": "93"
         },
         {
-          "book": "Joshua",
-          "verses": "6-7"
+          "book": "Exodus",
+          "verses": "30"
         }
       ]
     },
@@ -69,19 +57,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "1:35-45"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "3"
+          "verses": "2:13-17"
         },
         {
           "book": "Psalms",
-          "verses": "75"
+          "verses": "94"
         },
         {
-          "book": "Joshua",
-          "verses": "8-9"
+          "book": "Exodus",
+          "verses": "31"
         }
       ]
     },
@@ -89,45 +73,42 @@
       "day": 5,
       "readings": [
         {
-          "book": "Mark",
-          "verses": "2:1-12"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "4"
-        },
-        {
           "book": "Psalms",
-          "verses": "76"
-        },
-        {
-          "book": "Joshua",
-          "verses": "10-12"
+          "verses": "95"
         }
       ]
     },
     {
       "day": 6,
-      "readings": []
+      "readings": [
+        {
+          "book": "Mark",
+          "verses": "2:18-28"
+        },
+        {
+          "book": "Psalms",
+          "verses": "96"
+        },
+        {
+          "book": "Exodus",
+          "verses": "32"
+        }
+      ]
     },
     {
       "day": 7,
       "readings": [
         {
           "book": "Mark",
-          "verses": "2:13-17"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "5"
+          "verses": "3:1-19"
         },
         {
           "book": "Psalms",
-          "verses": "77"
+          "verses": "97"
         },
         {
-          "book": "Joshua",
-          "verses": "13-14"
+          "book": "Exodus",
+          "verses": "33"
         }
       ]
     },
@@ -136,19 +117,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "2:18-28"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "6:1-11"
+          "verses": "3:20-35"
         },
         {
           "book": "Psalms",
-          "verses": "78:1-39"
+          "verses": "98"
         },
         {
-          "book": "Joshua",
-          "verses": "15-17"
+          "book": "Exodus",
+          "verses": "34"
         }
       ]
     },
@@ -157,19 +134,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "3:1-19"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "6:12-20"
+          "verses": "4:1-20"
         },
         {
           "book": "Psalms",
-          "verses": "78:40-72"
+          "verses": "99"
         },
         {
-          "book": "Joshua",
-          "verses": "18-19"
+          "book": "Exodus",
+          "verses": "35"
         }
       ]
     },
@@ -178,19 +151,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "3:20-35"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "7:1-16"
+          "verses": "4:21-41"
         },
         {
           "book": "Psalms",
-          "verses": "79"
+          "verses": "100"
         },
         {
-          "book": "Joshua",
-          "verses": "20-21"
+          "book": "Exodus",
+          "verses": "36"
         }
       ]
     },
@@ -199,19 +168,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "4:1-20"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "7:17-40"
+          "verses": "5:1-20"
         },
         {
           "book": "Psalms",
-          "verses": "80"
+          "verses": "101"
         },
         {
-          "book": "Joshua",
-          "verses": "22-23"
+          "book": "Exodus",
+          "verses": "37"
         }
       ]
     },
@@ -219,45 +184,42 @@
       "day": 12,
       "readings": [
         {
-          "book": "Mark",
-          "verses": "4:21-41"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "8"
-        },
-        {
           "book": "Psalms",
-          "verses": "81"
-        },
-        {
-          "book": "Joshua",
-          "verses": "24"
+          "verses": "102"
         }
       ]
     },
     {
       "day": 13,
-      "readings": []
+      "readings": [
+        {
+          "book": "Mark",
+          "verses": "5:21-43"
+        },
+        {
+          "book": "Psalms",
+          "verses": "103"
+        },
+        {
+          "book": "Exodus",
+          "verses": "38"
+        }
+      ]
     },
     {
       "day": 14,
       "readings": [
         {
           "book": "Mark",
-          "verses": "5:1-20"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "9:1-12"
+          "verses": "6:1-13"
         },
         {
           "book": "Psalms",
-          "verses": "82"
+          "verses": "104"
         },
         {
-          "book": "Judges",
-          "verses": "1-3"
+          "book": "Exodus",
+          "verses": "39"
         }
       ]
     },
@@ -266,19 +228,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "5:21-43"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "9:13-27"
+          "verses": "6:14-29"
         },
         {
           "book": "Psalms",
-          "verses": "83"
+          "verses": "105"
         },
         {
-          "book": "Judges",
-          "verses": "4-5"
+          "book": "Exodus",
+          "verses": "40"
         }
       ]
     },
@@ -287,19 +245,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "6:1-13"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "10:1-13"
+          "verses": "6:30-44"
         },
         {
           "book": "Psalms",
-          "verses": "84"
+          "verses": "106"
         },
         {
-          "book": "Judges",
-          "verses": "6-7"
+          "book": "Leviticus",
+          "verses": "1"
         }
       ]
     },
@@ -308,19 +262,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "6:14-29"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "10:14-33"
+          "verses": "6:45-56"
         },
         {
           "book": "Psalms",
-          "verses": "85"
+          "verses": "107"
         },
         {
-          "book": "Judges",
-          "verses": "8"
+          "book": "Leviticus",
+          "verses": "2"
         }
       ]
     },
@@ -329,19 +279,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "6:30-44"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "11:1-16"
+          "verses": "7:1-23"
         },
         {
           "book": "Psalms",
-          "verses": "86"
+          "verses": "108"
         },
         {
-          "book": "Judges",
-          "verses": "9"
+          "book": "Leviticus",
+          "verses": "3"
         }
       ]
     },
@@ -349,45 +295,42 @@
       "day": 19,
       "readings": [
         {
-          "book": "Mark",
-          "verses": "6:45-56"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "11:17-34"
-        },
-        {
           "book": "Psalms",
-          "verses": "87"
-        },
-        {
-          "book": "Judges",
-          "verses": "10-12"
+          "verses": "109"
         }
       ]
     },
     {
       "day": 20,
-      "readings": []
+      "readings": [
+        {
+          "book": "Mark",
+          "verses": "7:24-37"
+        },
+        {
+          "book": "Psalms",
+          "verses": "110"
+        },
+        {
+          "book": "Leviticus",
+          "verses": "4"
+        }
+      ]
     },
     {
       "day": 21,
       "readings": [
         {
           "book": "Mark",
-          "verses": "7:1-23"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "12:1-13"
+          "verses": "8:1-13"
         },
         {
           "book": "Psalms",
-          "verses": "88"
+          "verses": "111"
         },
         {
-          "book": "Judges",
-          "verses": "13-15"
+          "book": "Leviticus",
+          "verses": "5"
         }
       ]
     },
@@ -396,19 +339,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "7:24-37"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "12:14-31"
+          "verses": "8:14-21"
         },
         {
           "book": "Psalms",
-          "verses": "89:1-18"
+          "verses": "112"
         },
         {
-          "book": "Judges",
-          "verses": "16"
+          "book": "Leviticus",
+          "verses": "6"
         }
       ]
     },
@@ -417,19 +356,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "8:1-13"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "13"
+          "verses": "8:22-30"
         },
         {
           "book": "Psalms",
-          "verses": "89:19-52"
+          "verses": "113"
         },
         {
-          "book": "Judges",
-          "verses": "17-18"
+          "book": "Leviticus",
+          "verses": "7"
         }
       ]
     },
@@ -438,19 +373,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "8:14-21"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "14:1-25"
+          "verses": "8:31-38"
         },
         {
           "book": "Psalms",
-          "verses": "90"
+          "verses": "114"
         },
         {
-          "book": "Judges",
-          "verses": "19"
+          "book": "Leviticus",
+          "verses": "8"
         }
       ]
     },
@@ -459,19 +390,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "8:22-30"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "14:26-40"
+          "verses": "9:1-13"
         },
         {
           "book": "Psalms",
-          "verses": "91"
+          "verses": "115"
         },
         {
-          "book": "Judges",
-          "verses": "20-21"
+          "book": "Leviticus",
+          "verses": "9"
         }
       ]
     },
@@ -479,45 +406,42 @@
       "day": 26,
       "readings": [
         {
-          "book": "Mark",
-          "verses": "8:31-38"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "15:1-28"
-        },
-        {
           "book": "Psalms",
-          "verses": "92"
-        },
-        {
-          "book": "Ruth",
-          "verses": "1"
+          "verses": "116"
         }
       ]
     },
     {
       "day": 27,
-      "readings": []
+      "readings": [
+        {
+          "book": "Mark",
+          "verses": "9:14-32"
+        },
+        {
+          "book": "Psalms",
+          "verses": "117"
+        },
+        {
+          "book": "Leviticus",
+          "verses": "10"
+        }
+      ]
     },
     {
       "day": 28,
       "readings": [
         {
           "book": "Mark",
-          "verses": "9:1-13"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "15:29-58"
+          "verses": "9:33-50"
         },
         {
           "book": "Psalms",
-          "verses": "93"
+          "verses": "118"
         },
         {
-          "book": "Ruth",
-          "verses": "2-3"
+          "book": "Leviticus",
+          "verses": "11"
         }
       ]
     },
@@ -526,19 +450,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "9:14-32"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "16"
+          "verses": "10:1-16"
         },
         {
           "book": "Psalms",
-          "verses": "94"
+          "verses": "119:1-16"
         },
         {
-          "book": "Ruth",
-          "verses": "4"
+          "book": "Leviticus",
+          "verses": "12"
         }
       ]
     },
@@ -547,15 +467,15 @@
       "readings": [
         {
           "book": "Mark",
-          "verses": "4"
-        },
-        {
-          "book": "1 Corinthians",
-          "verses": "3"
+          "verses": "10:17-34"
         },
         {
           "book": "Psalms",
-          "verses": "94"
+          "verses": "119:17-32"
+        },
+        {
+          "book": "Leviticus",
+          "verses": "13"
         }
       ]
     }
