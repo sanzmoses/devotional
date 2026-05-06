@@ -134,7 +134,7 @@ const getVersePreview = (text) => {
 }
 
 .reading-verses {
-  font-size: 4rem;
+  font-size: 3rem;
   opacity: 0.95;
   font-weight: bold;
   position: absolute;
