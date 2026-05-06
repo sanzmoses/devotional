@@ -3,7 +3,16 @@
   "days": [
     {
       "day": 1,
-      "readings": []
+      "readings": [
+        {
+          "book": "Psalms",
+          "verses": "142"
+        },
+        {
+          "book": "Numbers",
+          "verses": "13"
+        }
+      ]
     },
     {
       "day": 2,
@@ -13,16 +22,12 @@
           "verses": "1:1-25"
         },
         {
-          "book": "Ephesians",
-          "verses": "1:1-14"
-        },
-        {
           "book": "Psalms",
-          "verses": "119:1-8"
+          "verses": "143"
         },
         {
-          "book": "1 Kings",
-          "verses": "1"
+          "book": "Numbers",
+          "verses": "14"
         }
       ]
     },
@@ -34,16 +39,12 @@
           "verses": "1:26-38"
         },
         {
-          "book": "Ephesians",
-          "verses": "1:15-23"
-        },
-        {
           "book": "Psalms",
-          "verses": "119:9-16"
+          "verses": "144"
         },
         {
-          "book": "1 Kings",
-          "verses": "2-3"
+          "book": "Numbers",
+          "verses": "15"
         }
       ]
     },
@@ -55,16 +56,12 @@
           "verses": "1:39-56"
         },
         {
-          "book": "Ephesians",
-          "verses": "2:1-10"
-        },
-        {
           "book": "Psalms",
-          "verses": "119:17-24"
+          "verses": "145"
         },
         {
-          "book": "1 Kings",
-          "verses": "4-5"
+          "book": "Numbers",
+          "verses": "16"
         }
       ]
     },
@@ -76,16 +73,12 @@
           "verses": "1:57-66"
         },
         {
-          "book": "Ephesians",
-          "verses": "2:11-22"
-        },
-        {
           "book": "Psalms",
-          "verses": "119:25-32"
+          "verses": "146"
         },
         {
-          "book": "1 Kings",
-          "verses": "6-7"
+          "book": "Numbers",
+          "verses": "17"
         }
       ]
     },
@@ -97,16 +90,12 @@
           "verses": "1:67-80"
         },
         {
-          "book": "Ephesians",
-          "verses": "3:1-13"
-        },
-        {
           "book": "Psalms",
-          "verses": "119:33-40"
+          "verses": "147"
         },
         {
-          "book": "1 Kings",
-          "verses": "8"
+          "book": "Numbers",
+          "verses": "18"
         }
       ]
     },
@@ -118,22 +107,27 @@
           "verses": "2:1-20"
         },
         {
-          "book": "Ephesians",
-          "verses": "3:14-21"
-        },
-        {
           "book": "Psalms",
-          "verses": "119:41-48"
+          "verses": "148"
         },
         {
-          "book": "1 Kings",
-          "verses": "9-10"
+          "book": "Numbers",
+          "verses": "19"
         }
       ]
     },
     {
       "day": 8,
-      "readings": []
+      "readings": [
+        {
+          "book": "Psalms",
+          "verses": "149"
+        },
+        {
+          "book": "Numbers",
+          "verses": "20"
+        }
+      ]
     },
     {
       "day": 9,
@@ -143,16 +137,12 @@
           "verses": "2:21-40"
         },
         {
-          "book": "Ephesians",
-          "verses": "4:1-16"
-        },
-        {
           "book": "Psalms",
-          "verses": "119:49-56"
+          "verses": "150"
         },
         {
-          "book": "1 Kings",
-          "verses": "11"
+          "book": "Numbers",
+          "verses": "21"
         }
       ]
     },
@@ -164,16 +154,8 @@
           "verses": "2:41-52"
         },
         {
-          "book": "Ephesians",
-          "verses": "4:17-24"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:57-64"
-        },
-        {
-          "book": "1 Kings",
-          "verses": "12"
+          "book": "Numbers",
+          "verses": "22"
         }
       ]
     },
@@ -185,16 +167,8 @@
           "verses": "3:1-20"
         },
         {
-          "book": "Ephesians",
-          "verses": "4:25-32"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:65-72"
-        },
-        {
-          "book": "1 Kings",
-          "verses": "13-14"
+          "book": "Numbers",
+          "verses": "23"
         }
       ]
     },
@@ -206,16 +180,8 @@
           "verses": "3:21-38"
         },
         {
-          "book": "Ephesians",
-          "verses": "5:1-21"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:73-80"
-        },
-        {
-          "book": "1 Kings",
-          "verses": "15-16"
+          "book": "Numbers",
+          "verses": "24"
         }
       ]
     },
@@ -227,16 +193,8 @@
           "verses": "4:1-12"
         },
         {
-          "book": "Ephesians",
-          "verses": "5:22-33"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:81-88"
-        },
-        {
-          "book": "1 Kings",
-          "verses": "17-18"
+          "book": "Numbers",
+          "verses": "25"
         }
       ]
     },
@@ -248,22 +206,19 @@
           "verses": "4:13-30"
         },
         {
-          "book": "Ephesians",
-          "verses": "6:1-9"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:89-96"
-        },
-        {
-          "book": "1 Kings",
-          "verses": "19-20"
+          "book": "Numbers",
+          "verses": "26"
         }
       ]
     },
     {
       "day": 15,
-      "readings": []
+      "readings": [
+        {
+          "book": "Numbers",
+          "verses": "27"
+        }
+      ]
     },
     {
       "day": 16,
@@ -273,16 +228,8 @@
           "verses": "4:31-37"
         },
         {
-          "book": "Ephesians",
-          "verses": "6:10-24"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:97-104"
-        },
-        {
-          "book": "1 Kings",
-          "verses": "21-22"
+          "book": "Numbers",
+          "verses": "28"
         }
       ]
     },
@@ -294,16 +241,8 @@
           "verses": "4:38-44"
         },
         {
-          "book": "Philippians",
-          "verses": "1:1-11"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:105-112"
-        },
-        {
-          "book": "2 Kings",
-          "verses": "1-3"
+          "book": "Numbers",
+          "verses": "29"
         }
       ]
     },
@@ -315,16 +254,8 @@
           "verses": "5:1-11"
         },
         {
-          "book": "Philippians",
-          "verses": "1:12-20"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:113-120"
-        },
-        {
-          "book": "2 Kings",
-          "verses": "4-5"
+          "book": "Numbers",
+          "verses": "30"
         }
       ]
     },
@@ -336,16 +267,8 @@
           "verses": "5:12-16"
         },
         {
-          "book": "Philippians",
-          "verses": "1:21-30"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:121-128"
-        },
-        {
-          "book": "2 Kings",
-          "verses": "6-7"
+          "book": "Numbers",
+          "verses": "31"
         }
       ]
     },
@@ -357,16 +280,8 @@
           "verses": "5:17-26"
         },
         {
-          "book": "Philippians",
-          "verses": "2:1-11"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:129-136"
-        },
-        {
-          "book": "2 Kings",
-          "verses": "8-9"
+          "book": "Numbers",
+          "verses": "32"
         }
       ]
     },
@@ -378,22 +293,19 @@
           "verses": "5:27-32"
         },
         {
-          "book": "Philippians",
-          "verses": "2:12-18"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:137-144"
-        },
-        {
-          "book": "2 Kings",
-          "verses": "10-11"
+          "book": "Numbers",
+          "verses": "33"
         }
       ]
     },
     {
       "day": 22,
-      "readings": []
+      "readings": [
+        {
+          "book": "Numbers",
+          "verses": "34"
+        }
+      ]
     },
     {
       "day": 23,
@@ -403,16 +315,8 @@
           "verses": "5:33-39"
         },
         {
-          "book": "Philippians",
-          "verses": "2:19-30"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:145-152"
-        },
-        {
-          "book": "2 Kings",
-          "verses": "12-13"
+          "book": "Numbers",
+          "verses": "35"
         }
       ]
     },
@@ -424,16 +328,8 @@
           "verses": "6:1-16"
         },
         {
-          "book": "Philippians",
-          "verses": "3:1-9"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:153-160"
-        },
-        {
-          "book": "2 Kings",
-          "verses": "14-15"
+          "book": "Numbers",
+          "verses": "36"
         }
       ]
     },
@@ -445,16 +341,8 @@
           "verses": "6:17-26"
         },
         {
-          "book": "Philippians",
-          "verses": "3:10-14"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:161-168"
-        },
-        {
-          "book": "2 Kings",
-          "verses": "16-17"
+          "book": "Deuteronomy",
+          "verses": "1"
         }
       ]
     },
@@ -466,16 +354,8 @@
           "verses": "6:27-36"
         },
         {
-          "book": "Philippians",
-          "verses": "3:15-21"
-        },
-        {
-          "book": "Psalms",
-          "verses": "119:169-176"
-        },
-        {
-          "book": "2 Kings",
-          "verses": "18-19"
+          "book": "Deuteronomy",
+          "verses": "2"
         }
       ]
     },
@@ -487,16 +367,8 @@
           "verses": "6:37-42"
         },
         {
-          "book": "Philippians",
-          "verses": "4:1-7"
-        },
-        {
-          "book": "Psalms",
-          "verses": "120"
-        },
-        {
-          "book": "2 Kings",
-          "verses": "20-21"
+          "book": "Deuteronomy",
+          "verses": "3"
         }
       ]
     },
@@ -508,22 +380,19 @@
           "verses": "6:43-49"
         },
         {
-          "book": "Philippians",
-          "verses": "4:8-13"
-        },
-        {
-          "book": "Psalms",
-          "verses": "121"
-        },
-        {
-          "book": "2 Kings",
-          "verses": "22-23"
+          "book": "Deuteronomy",
+          "verses": "4"
         }
       ]
     },
     {
       "day": 29,
-      "readings": []
+      "readings": [
+        {
+          "book": "Deuteronomy",
+          "verses": "5"
+        }
+      ]
     },
     {
       "day": 30,
@@ -533,16 +402,8 @@
           "verses": "7:1-10"
         },
         {
-          "book": "Philippians",
-          "verses": "4:14-23"
-        },
-        {
-          "book": "Psalms",
-          "verses": "122"
-        },
-        {
-          "book": "2 Kings",
-          "verses": "24-25"
+          "book": "Deuteronomy",
+          "verses": "6"
         }
       ]
     }
