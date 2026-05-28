@@ -5,6 +5,10 @@
       "day": 1,
       "readings": [
         {
+          "book": "Luke",
+          "verses": "1:67-80"
+        },
+        {
           "book": "Psalms",
           "verses": "142"
         },
@@ -19,7 +23,7 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "1:1-25"
+          "verses": "2:1-20"
         },
         {
           "book": "Psalms",
@@ -36,7 +40,7 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "1:26-38"
+          "verses": "2:21-40"
         },
         {
           "book": "Psalms",
@@ -53,7 +57,7 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "1:39-56"
+          "verses": "2:41-52"
         },
         {
           "book": "Psalms",
@@ -70,7 +74,7 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "1:57-66"
+          "verses": "3:1-20"
         },
         {
           "book": "Psalms",
@@ -87,7 +91,7 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "1:67-80"
+          "verses": "3:21-38"
         },
         {
           "book": "Psalms",
@@ -103,12 +107,21 @@
       "day": 7,
       "readings": [
         {
+          "book": "Psalms",
+          "verses": "148"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "readings": [
+        {
           "book": "Luke",
-          "verses": "2:1-20"
+          "verses": "4:1-13"
         },
         {
           "book": "Psalms",
-          "verses": "148"
+          "verses": "149"
         },
         {
           "book": "Numbers",
@@ -117,11 +130,15 @@
       ]
     },
     {
-      "day": 8,
+      "day": 9,
       "readings": [
         {
+          "book": "Luke",
+          "verses": "4:14-30"
+        },
+        {
           "book": "Psalms",
-          "verses": "149"
+          "verses": "150"
         },
         {
           "book": "Numbers",
@@ -130,15 +147,15 @@
       ]
     },
     {
-      "day": 9,
+      "day": 10,
       "readings": [
         {
           "book": "Luke",
-          "verses": "2:21-40"
+          "verses": "4:31-37"
         },
         {
-          "book": "Psalms",
-          "verses": "150"
+          "book": "Proverbs",
+          "verses": "1"
         },
         {
           "book": "Numbers",
@@ -147,11 +164,15 @@
       ]
     },
     {
-      "day": 10,
+      "day": 11,
       "readings": [
         {
           "book": "Luke",
-          "verses": "2:41-52"
+          "verses": "4:38-44"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "2"
         },
         {
           "book": "Numbers",
@@ -160,11 +181,15 @@
       ]
     },
     {
-      "day": 11,
+      "day": 12,
       "readings": [
         {
           "book": "Luke",
-          "verses": "3:1-20"
+          "verses": "5:1-11"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "3"
         },
         {
           "book": "Numbers",
@@ -173,11 +198,15 @@
       ]
     },
     {
-      "day": 12,
+      "day": 13,
       "readings": [
         {
           "book": "Luke",
-          "verses": "3:21-38"
+          "verses": "5:12-16"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "4"
         },
         {
           "book": "Numbers",
@@ -186,11 +215,24 @@
       ]
     },
     {
-      "day": 13,
+      "day": 14,
+      "readings": [
+        {
+          "book": "Proverbs",
+          "verses": "5"
+        }
+      ]
+    },
+    {
+      "day": 15,
       "readings": [
         {
           "book": "Luke",
-          "verses": "4:1-12"
+          "verses": "5:17-26"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "6"
         },
         {
           "book": "Numbers",
@@ -199,11 +241,15 @@
       ]
     },
     {
-      "day": 14,
+      "day": 16,
       "readings": [
         {
           "book": "Luke",
-          "verses": "4:13-30"
+          "verses": "5:27-32"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "7"
         },
         {
           "book": "Numbers",
@@ -212,37 +258,19 @@
       ]
     },
     {
-      "day": 15,
-      "readings": [
-        {
-          "book": "Numbers",
-          "verses": "27"
-        }
-      ]
-    },
-    {
-      "day": 16,
-      "readings": [
-        {
-          "book": "Luke",
-          "verses": "4:31-37"
-        },
-        {
-          "book": "Numbers",
-          "verses": "28"
-        }
-      ]
-    },
-    {
       "day": 17,
       "readings": [
         {
           "book": "Luke",
-          "verses": "4:38-44"
+          "verses": "5:33-39"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "8"
         },
         {
           "book": "Numbers",
-          "verses": "29"
+          "verses": "27"
         }
       ]
     },
@@ -251,11 +279,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "5:1-11"
+          "verses": "6:1-16"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "9"
         },
         {
           "book": "Numbers",
-          "verses": "30"
+          "verses": "28"
         }
       ]
     },
@@ -264,11 +296,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "5:12-16"
+          "verses": "6:17-26"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "10"
         },
         {
           "book": "Numbers",
-          "verses": "31"
+          "verses": "29"
         }
       ]
     },
@@ -277,11 +313,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "5:17-26"
+          "verses": "6:27-36"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "11"
         },
         {
           "book": "Numbers",
-          "verses": "32"
+          "verses": "30"
         }
       ]
     },
@@ -289,12 +329,8 @@
       "day": 21,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "5:27-32"
-        },
-        {
-          "book": "Numbers",
-          "verses": "33"
+          "book": "Proverbs",
+          "verses": "12"
         }
       ]
     },
@@ -302,8 +338,16 @@
       "day": 22,
       "readings": [
         {
+          "book": "Luke",
+          "verses": "6:37-42"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "13"
+        },
+        {
           "book": "Numbers",
-          "verses": "34"
+          "verses": "31"
         }
       ]
     },
@@ -312,11 +356,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "5:33-39"
+          "verses": "6:43-49"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "14"
         },
         {
           "book": "Numbers",
-          "verses": "35"
+          "verses": "32"
         }
       ]
     },
@@ -325,11 +373,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "6:1-16"
+          "verses": "7:1-10"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "15"
         },
         {
           "book": "Numbers",
-          "verses": "36"
+          "verses": "33"
         }
       ]
     },
@@ -338,11 +390,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "6:17-26"
+          "verses": "7:11-17"
         },
         {
-          "book": "Deuteronomy",
-          "verses": "1"
+          "book": "Proverbs",
+          "verses": "16"
+        },
+        {
+          "book": "Numbers",
+          "verses": "34"
         }
       ]
     },
@@ -351,11 +407,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "6:27-36"
+          "verses": "7:18-35"
         },
         {
-          "book": "Deuteronomy",
-          "verses": "2"
+          "book": "Proverbs",
+          "verses": "17"
+        },
+        {
+          "book": "Numbers",
+          "verses": "35"
         }
       ]
     },
@@ -364,11 +424,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "6:37-42"
+          "verses": "7:36-50"
         },
         {
-          "book": "Deuteronomy",
-          "verses": "3"
+          "book": "Proverbs",
+          "verses": "18"
+        },
+        {
+          "book": "Numbers",
+          "verses": "36"
         }
       ]
     },
@@ -376,12 +440,8 @@
       "day": 28,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "6:43-49"
-        },
-        {
-          "book": "Deuteronomy",
-          "verses": "4"
+          "book": "Proverbs",
+          "verses": "19"
         }
       ]
     },
@@ -389,8 +449,16 @@
       "day": 29,
       "readings": [
         {
+          "book": "Luke",
+          "verses": "8:1-15"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "20"
+        },
+        {
           "book": "Deuteronomy",
-          "verses": "5"
+          "verses": "1"
         }
       ]
     },
@@ -399,11 +467,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "7:1-10"
+          "verses": "8:16-25"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "21"
         },
         {
           "book": "Deuteronomy",
-          "verses": "6"
+          "verses": "2"
         }
       ]
     }

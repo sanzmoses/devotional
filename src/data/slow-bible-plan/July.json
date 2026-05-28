@@ -6,19 +6,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "7:11-17"
+          "verses": "8:26-39"
         },
         {
-          "book": "Colossians",
-          "verses": "1:1-14"
+          "book": "Proverbs",
+          "verses": "22"
         },
         {
-          "book": "Psalms",
-          "verses": "123-124"
-        },
-        {
-          "book": "1 Chronicles",
-          "verses": "1-2"
+          "book": "Deuteronomy",
+          "verses": "3"
         }
       ]
     },
@@ -27,19 +23,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "7:18-35"
+          "verses": "8:40-56"
         },
         {
-          "book": "Colossians",
-          "verses": "1:15-29"
+          "book": "Proverbs",
+          "verses": "23"
         },
         {
-          "book": "Psalms",
-          "verses": "125"
-        },
-        {
-          "book": "1 Chronicles",
-          "verses": "3-4"
+          "book": "Deuteronomy",
+          "verses": "4"
         }
       ]
     },
@@ -48,19 +40,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "7:36-50"
+          "verses": "9:1-17"
         },
         {
-          "book": "Colossians",
-          "verses": "2:1-7"
+          "book": "Proverbs",
+          "verses": "24"
         },
         {
-          "book": "Psalms",
-          "verses": "126"
-        },
-        {
-          "book": "1 Chronicles",
-          "verses": "5-6"
+          "book": "Deuteronomy",
+          "verses": "5"
         }
       ]
     },
@@ -69,19 +57,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "8:1-15"
+          "verses": "9:18-27"
         },
         {
-          "book": "Colossians",
-          "verses": "2:8-15"
+          "book": "Proverbs",
+          "verses": "25"
         },
         {
-          "book": "Psalms",
-          "verses": "127"
-        },
-        {
-          "book": "1 Chronicles",
-          "verses": "7-9"
+          "book": "Deuteronomy",
+          "verses": "6"
         }
       ]
     },
@@ -89,45 +73,42 @@
       "day": 5,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "8:16-25"
-        },
-        {
-          "book": "Colossians",
-          "verses": "2:16-23"
-        },
-        {
-          "book": "Psalms",
-          "verses": "128"
-        },
-        {
-          "book": "1 Chronicles",
-          "verses": "10-11"
+          "book": "Proverbs",
+          "verses": "26"
         }
       ]
     },
     {
       "day": 6,
-      "readings": []
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "9:28-36"
+        },
+        {
+          "book": "Proverbs",
+          "verses": "27"
+        },
+        {
+          "book": "Deuteronomy",
+          "verses": "7"
+        }
+      ]
     },
     {
       "day": 7,
       "readings": [
         {
           "book": "Luke",
-          "verses": "8:26-39"
+          "verses": "9:37-50"
         },
         {
-          "book": "Colossians",
-          "verses": "3:1-14"
+          "book": "Proverbs",
+          "verses": "28"
         },
         {
-          "book": "Psalms",
-          "verses": "129"
-        },
-        {
-          "book": "1 Chronicles",
-          "verses": "12-14"
+          "book": "Deuteronomy",
+          "verses": "8"
         }
       ]
     },
@@ -136,19 +117,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "8:40-56"
+          "verses": "9:51-62"
         },
         {
-          "book": "Colossians",
-          "verses": "3:15-25"
+          "book": "Proverbs",
+          "verses": "29"
         },
         {
-          "book": "Psalms",
-          "verses": "130-131"
-        },
-        {
-          "book": "1 Chronicles",
-          "verses": "15-16"
+          "book": "Deuteronomy",
+          "verses": "9"
         }
       ]
     },
@@ -157,19 +134,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "9:1-17"
+          "verses": "10:1-16"
         },
         {
-          "book": "Colossians",
-          "verses": "4:1-9"
+          "book": "Proverbs",
+          "verses": "30"
         },
         {
-          "book": "Psalms",
-          "verses": "132"
-        },
-        {
-          "book": "1 Chronicles",
-          "verses": "17-19"
+          "book": "Deuteronomy",
+          "verses": "10"
         }
       ]
     },
@@ -178,19 +151,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "9:18-27"
+          "verses": "10:17-24"
         },
         {
-          "book": "Colossians",
-          "verses": "4:10-18"
+          "book": "Proverbs",
+          "verses": "31:1-9"
         },
         {
-          "book": "Psalms",
-          "verses": "133-134"
-        },
-        {
-          "book": "1 Chronicles",
-          "verses": "20-22"
+          "book": "Deuteronomy",
+          "verses": "11"
         }
       ]
     },
@@ -199,19 +168,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "9:28-36"
+          "verses": "10:25-37"
         },
         {
-          "book": "1 Thessalonians",
-          "verses": "1"
+          "book": "Proverbs",
+          "verses": "31:10-31"
         },
         {
-          "book": "Psalms",
-          "verses": "135"
-        },
-        {
-          "book": "1 Chronicles",
-          "verses": "23-25"
+          "book": "Deuteronomy",
+          "verses": "12"
         }
       ]
     },
@@ -219,45 +184,42 @@
       "day": 12,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "9:37-50"
-        },
-        {
-          "book": "1 Thessalonians",
-          "verses": "2:1-9"
-        },
-        {
-          "book": "Psalms",
-          "verses": "136"
-        },
-        {
-          "book": "1 Chronicles",
-          "verses": "26-28"
+          "book": "Ecclesiastes",
+          "verses": "1"
         }
       ]
     },
     {
       "day": 13,
-      "readings": []
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "10:38-42"
+        },
+        {
+          "book": "Ecclesiastes",
+          "verses": "2"
+        },
+        {
+          "book": "Deuteronomy",
+          "verses": "13"
+        }
+      ]
     },
     {
       "day": 14,
       "readings": [
         {
           "book": "Luke",
-          "verses": "9:51-62"
+          "verses": "11:1-13"
         },
         {
-          "book": "1 Thessalonians",
-          "verses": "2:10-20"
+          "book": "Ecclesiastes",
+          "verses": "3"
         },
         {
-          "book": "Psalms",
-          "verses": "137"
-        },
-        {
-          "book": "1 Chronicles",
-          "verses": "29"
+          "book": "Deuteronomy",
+          "verses": "14"
         }
       ]
     },
@@ -266,19 +228,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "10:1-16"
+          "verses": "11:14-28"
         },
         {
-          "book": "1 Thessalonians",
-          "verses": "3:1-6"
+          "book": "Ecclesiastes",
+          "verses": "4"
         },
         {
-          "book": "Psalms",
-          "verses": "138"
-        },
-        {
-          "book": "2 Chronicles",
-          "verses": "1-2"
+          "book": "Deuteronomy",
+          "verses": "15"
         }
       ]
     },
@@ -287,19 +245,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "10:17-24"
+          "verses": "11:29-36"
         },
         {
-          "book": "1 Thessalonians",
-          "verses": "3:7-13"
+          "book": "Ecclesiastes",
+          "verses": "5"
         },
         {
-          "book": "Psalms",
-          "verses": "139"
-        },
-        {
-          "book": "2 Chronicles",
-          "verses": "3-5"
+          "book": "Deuteronomy",
+          "verses": "16"
         }
       ]
     },
@@ -308,19 +262,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "10:25-37"
+          "verses": "11:37-54"
         },
         {
-          "book": "1 Thessalonians",
-          "verses": "4:1-10"
+          "book": "Ecclesiastes",
+          "verses": "6"
         },
         {
-          "book": "Psalms",
-          "verses": "140"
-        },
-        {
-          "book": "2 Chronicles",
-          "verses": "6-7"
+          "book": "Deuteronomy",
+          "verses": "17"
         }
       ]
     },
@@ -329,19 +279,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "10:38-42"
+          "verses": "12:1-12"
         },
         {
-          "book": "1 Thessalonians",
-          "verses": "4:11-18"
+          "book": "Ecclesiastes",
+          "verses": "7"
         },
         {
-          "book": "Psalms",
-          "verses": "141"
-        },
-        {
-          "book": "2 Chronicles",
-          "verses": "8-9"
+          "book": "Deuteronomy",
+          "verses": "18"
         }
       ]
     },
@@ -349,45 +295,42 @@
       "day": 19,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "11:1-13"
-        },
-        {
-          "book": "1 Thessalonians",
-          "verses": "5:1-11"
-        },
-        {
-          "book": "Psalms",
-          "verses": "142"
-        },
-        {
-          "book": "2 Chronicles",
-          "verses": "10-12"
+          "book": "Ecclesiastes",
+          "verses": "8"
         }
       ]
     },
     {
       "day": 20,
-      "readings": []
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "12:13-21"
+        },
+        {
+          "book": "Ecclesiastes",
+          "verses": "9"
+        },
+        {
+          "book": "Deuteronomy",
+          "verses": "19"
+        }
+      ]
     },
     {
       "day": 21,
       "readings": [
         {
           "book": "Luke",
-          "verses": "11:14-28"
+          "verses": "12:22-34"
         },
         {
-          "book": "1 Thessalonians",
-          "verses": "5:12-28"
+          "book": "Ecclesiastes",
+          "verses": "10"
         },
         {
-          "book": "Psalms",
-          "verses": "143"
-        },
-        {
-          "book": "2 Chronicles",
-          "verses": "13-16"
+          "book": "Deuteronomy",
+          "verses": "20"
         }
       ]
     },
@@ -396,19 +339,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "11:29-36"
+          "verses": "12:35-48"
         },
         {
-          "book": "2 Thessalonians",
-          "verses": "1:1-7"
+          "book": "Ecclesiastes",
+          "verses": "11"
         },
         {
-          "book": "Psalms",
-          "verses": "144"
-        },
-        {
-          "book": "2 Chronicles",
-          "verses": "17-19"
+          "book": "Deuteronomy",
+          "verses": "21"
         }
       ]
     },
@@ -417,19 +356,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "11:37-54"
+          "verses": "12:49-59"
         },
         {
-          "book": "2 Thessalonians",
-          "verses": "1:8-12"
+          "book": "Ecclesiastes",
+          "verses": "12"
         },
         {
-          "book": "Psalms",
-          "verses": "145"
-        },
-        {
-          "book": "2 Chronicles",
-          "verses": "20-21"
+          "book": "Deuteronomy",
+          "verses": "22"
         }
       ]
     },
@@ -438,19 +373,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "12:1-12"
+          "verses": "13:1-9"
         },
         {
-          "book": "2 Thessalonians",
-          "verses": "2:1-12"
+          "book": "Song of Songs",
+          "verses": "1"
         },
         {
-          "book": "Psalms",
-          "verses": "146"
-        },
-        {
-          "book": "2 Chronicles",
-          "verses": "22-24"
+          "book": "Deuteronomy",
+          "verses": "23"
         }
       ]
     },
@@ -459,19 +390,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "12:13-21"
+          "verses": "13:10-21"
         },
         {
-          "book": "2 Thessalonians",
-          "verses": "2:13-17"
+          "book": "Song of Songs",
+          "verses": "2"
         },
         {
-          "book": "Psalms",
-          "verses": "147"
-        },
-        {
-          "book": "2 Chronicles",
-          "verses": "25-27"
+          "book": "Deuteronomy",
+          "verses": "24"
         }
       ]
     },
@@ -479,45 +406,42 @@
       "day": 26,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "12:22-34"
-        },
-        {
-          "book": "2 Thessalonians",
-          "verses": "3:1-5"
-        },
-        {
-          "book": "Psalms",
-          "verses": "148"
-        },
-        {
-          "book": "2 Chronicles",
-          "verses": "28-29"
+          "book": "Song of Songs",
+          "verses": "3"
         }
       ]
     },
     {
       "day": 27,
-      "readings": []
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "13:22-35"
+        },
+        {
+          "book": "Song of Songs",
+          "verses": "4"
+        },
+        {
+          "book": "Deuteronomy",
+          "verses": "25"
+        }
+      ]
     },
     {
       "day": 28,
       "readings": [
         {
           "book": "Luke",
-          "verses": "12:35-48"
+          "verses": "14:1-14"
         },
         {
-          "book": "2 Thessalonians",
-          "verses": "3:6-13"
+          "book": "Song of Songs",
+          "verses": "5"
         },
         {
-          "book": "Psalms",
-          "verses": "149"
-        },
-        {
-          "book": "2 Chronicles",
-          "verses": "30-33"
+          "book": "Deuteronomy",
+          "verses": "26"
         }
       ]
     },
@@ -526,19 +450,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "12:49-59"
+          "verses": "14:15-24"
         },
         {
-          "book": "2 Thessalonians",
-          "verses": "3:14-18"
+          "book": "Song of Songs",
+          "verses": "6"
         },
         {
-          "book": "Psalms",
-          "verses": "150"
-        },
-        {
-          "book": "2 Chronicles",
-          "verses": "34-36"
+          "book": "Deuteronomy",
+          "verses": "27"
         }
       ]
     },
@@ -547,15 +467,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "12:22-34"
+          "verses": "14:25-35"
         },
         {
-          "book": "Colossians",
-          "verses": "1:15-20"
+          "book": "Song of Songs",
+          "verses": "7"
         },
         {
-          "book": "Psalms",
-          "verses": "139"
+          "book": "Deuteronomy",
+          "verses": "28"
         }
       ]
     },
@@ -564,15 +484,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "12:35-48"
+          "verses": "15:1-10"
         },
         {
-          "book": "2 Thessalonians",
-          "verses": "3"
+          "book": "Song of Songs",
+          "verses": "8"
         },
         {
-          "book": "Psalms",
-          "verses": "127"
+          "book": "Deuteronomy",
+          "verses": "29"
         }
       ]
     }
