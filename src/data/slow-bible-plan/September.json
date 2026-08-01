@@ -6,19 +6,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "20:27-40"
+          "verses": "22:31-38"
         },
         {
-          "book": "Hebrews",
-          "verses": "1:1-9"
+          "book": "Job",
+          "verses": "32"
         },
         {
-          "book": "Proverbs",
-          "verses": "18"
-        },
-        {
-          "book": "Isaiah",
-          "verses": "1-2"
+          "book": "Joshua",
+          "verses": "22"
         }
       ]
     },
@@ -27,19 +23,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "20:41-47"
+          "verses": "22:39-46"
         },
         {
-          "book": "Hebrews",
-          "verses": "1:10-14"
+          "book": "Job",
+          "verses": "33"
         },
         {
-          "book": "Proverbs",
-          "verses": "19:1-14"
-        },
-        {
-          "book": "Isaiah",
-          "verses": "3-5"
+          "book": "Joshua",
+          "verses": "23"
         }
       ]
     },
@@ -48,19 +40,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "21:1-19"
+          "verses": "22:47-53"
         },
         {
-          "book": "Hebrews",
-          "verses": "2:1-9"
+          "book": "Job",
+          "verses": "34"
         },
         {
-          "book": "Proverbs",
-          "verses": "19:15-29"
-        },
-        {
-          "book": "Isaiah",
-          "verses": "6-8"
+          "book": "Joshua",
+          "verses": "24"
         }
       ]
     },
@@ -69,19 +57,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "21:20-28"
+          "verses": "22:54-62"
         },
         {
-          "book": "Hebrews",
-          "verses": "2:10-18"
+          "book": "Job",
+          "verses": "35"
         },
         {
-          "book": "Proverbs",
-          "verses": "20:1-15"
-        },
-        {
-          "book": "Isaiah",
-          "verses": "9-10"
+          "book": "Judges",
+          "verses": "1"
         }
       ]
     },
@@ -90,19 +74,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "21:29-38"
+          "verses": "22:63-71"
         },
         {
-          "book": "Hebrews",
-          "verses": "3"
+          "book": "Job",
+          "verses": "36"
         },
         {
-          "book": "Proverbs",
-          "verses": "20:16-30"
-        },
-        {
-          "book": "Isaiah",
-          "verses": "11-13"
+          "book": "Judges",
+          "verses": "2"
         }
       ]
     },
@@ -110,45 +90,42 @@
       "day": 6,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "22:1-13"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "4:1-11"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "21:1-16"
-        },
-        {
-          "book": "Isaiah",
-          "verses": "14-16"
+          "book": "Job",
+          "verses": "37"
         }
       ]
     },
     {
       "day": 7,
-      "readings": []
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "23:1-12"
+        },
+        {
+          "book": "Job",
+          "verses": "38"
+        },
+        {
+          "book": "Judges",
+          "verses": "3"
+        }
+      ]
     },
     {
       "day": 8,
       "readings": [
         {
           "book": "Luke",
-          "verses": "22:14-23"
+          "verses": "23:13-25"
         },
         {
-          "book": "Hebrews",
-          "verses": "4:12-16"
+          "book": "Job",
+          "verses": "39"
         },
         {
-          "book": "Proverbs",
-          "verses": "21:17-31"
-        },
-        {
-          "book": "Isaiah",
-          "verses": "17-20"
+          "book": "Judges",
+          "verses": "4"
         }
       ]
     },
@@ -157,19 +134,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "22:24-30"
+          "verses": "23:26-31"
         },
         {
-          "book": "Hebrews",
+          "book": "Job",
+          "verses": "40"
+        },
+        {
+          "book": "Judges",
           "verses": "5"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "22:1-16"
-        },
-        {
-          "book": "Isaiah",
-          "verses": "21-23"
         }
       ]
     },
@@ -178,19 +151,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "22:31-38"
+          "verses": "23:32-37"
         },
         {
-          "book": "Hebrews",
-          "verses": "6:1-12"
+          "book": "Job",
+          "verses": "41"
         },
         {
-          "book": "Proverbs",
-          "verses": "22:17-29"
-        },
-        {
-          "book": "Isaiah",
-          "verses": "24-26"
+          "book": "Judges",
+          "verses": "6"
         }
       ]
     },
@@ -199,19 +168,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "22:39-46"
+          "verses": "23:38-43"
         },
         {
-          "book": "Hebrews",
-          "verses": "6:13-20"
+          "book": "Job",
+          "verses": "42"
         },
         {
-          "book": "Proverbs",
-          "verses": "23:1-18"
-        },
-        {
-          "book": "Isaiah",
-          "verses": "27-28"
+          "book": "Judges",
+          "verses": "7"
         }
       ]
     },
@@ -220,19 +185,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "22:47-53"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "7:1-10"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "23:19-35"
+          "verses": "23:44-49"
         },
         {
           "book": "Isaiah",
-          "verses": "29-30"
+          "verses": "1"
+        },
+        {
+          "book": "Judges",
+          "verses": "8"
         }
       ]
     },
@@ -240,45 +201,42 @@
       "day": 13,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "22:54-62"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "7:11-28"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "24:1-22"
-        },
-        {
           "book": "Isaiah",
-          "verses": "31-33"
+          "verses": "2"
         }
       ]
     },
     {
       "day": 14,
-      "readings": []
+      "readings": [
+        {
+          "book": "Luke",
+          "verses": "23:50-56"
+        },
+        {
+          "book": "Isaiah",
+          "verses": "3"
+        },
+        {
+          "book": "Judges",
+          "verses": "9"
+        }
+      ]
     },
     {
       "day": 15,
       "readings": [
         {
           "book": "Luke",
-          "verses": "22:63-71"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "8:1-6"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "24:23-34"
+          "verses": "24:1-12"
         },
         {
           "book": "Isaiah",
-          "verses": "34-36"
+          "verses": "4"
+        },
+        {
+          "book": "Judges",
+          "verses": "10"
         }
       ]
     },
@@ -287,19 +245,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "23:1-12"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "8:7-13"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "25:1-14"
+          "verses": "24:13-27"
         },
         {
           "book": "Isaiah",
-          "verses": "37-39"
+          "verses": "5"
+        },
+        {
+          "book": "Judges",
+          "verses": "11"
         }
       ]
     },
@@ -308,19 +262,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "23:13-25"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "9:1-10"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "25:15-28"
+          "verses": "24:28-35"
         },
         {
           "book": "Isaiah",
-          "verses": "40-41"
+          "verses": "6"
+        },
+        {
+          "book": "Judges",
+          "verses": "12"
         }
       ]
     },
@@ -329,19 +279,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "23:26-31"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "9:11-28"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "26:1-16"
+          "verses": "24:36-44"
         },
         {
           "book": "Isaiah",
-          "verses": "42-43"
+          "verses": "7"
+        },
+        {
+          "book": "Judges",
+          "verses": "13"
         }
       ]
     },
@@ -350,19 +296,15 @@
       "readings": [
         {
           "book": "Luke",
-          "verses": "23:32-37"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "10:1-18"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "26:17-28"
+          "verses": "24:45-53"
         },
         {
           "book": "Isaiah",
-          "verses": "44-45"
+          "verses": "8"
+        },
+        {
+          "book": "Judges",
+          "verses": "14"
         }
       ]
     },
@@ -370,45 +312,42 @@
       "day": 20,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "23:38-43"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "10:19-39"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "27:1-14"
-        },
-        {
           "book": "Isaiah",
-          "verses": "46-48"
+          "verses": "9"
         }
       ]
     },
     {
       "day": 21,
-      "readings": []
+      "readings": [
+        {
+          "book": "John",
+          "verses": "1:1-18"
+        },
+        {
+          "book": "Isaiah",
+          "verses": "10"
+        },
+        {
+          "book": "Judges",
+          "verses": "15"
+        }
+      ]
     },
     {
       "day": 22,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "23:44-49"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "11:1-16"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "27:15-27"
+          "book": "John",
+          "verses": "1:19-28"
         },
         {
           "book": "Isaiah",
-          "verses": "49-50"
+          "verses": "11"
+        },
+        {
+          "book": "Judges",
+          "verses": "16"
         }
       ]
     },
@@ -416,20 +355,16 @@
       "day": 23,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "23:50-56"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "11:17-31"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "28:1-14"
+          "book": "John",
+          "verses": "1:29-34"
         },
         {
           "book": "Isaiah",
-          "verses": "51-53"
+          "verses": "12"
+        },
+        {
+          "book": "Judges",
+          "verses": "17"
         }
       ]
     },
@@ -437,20 +372,16 @@
       "day": 24,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "24:1-12"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "11:32-40"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "28:15-28"
+          "book": "John",
+          "verses": "1:35-42"
         },
         {
           "book": "Isaiah",
-          "verses": "54-55"
+          "verses": "13"
+        },
+        {
+          "book": "Judges",
+          "verses": "18"
         }
       ]
     },
@@ -458,20 +389,16 @@
       "day": 25,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "24:13-27"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "12:1-13"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "29:1-14"
+          "book": "John",
+          "verses": "1:43-51"
         },
         {
           "book": "Isaiah",
-          "verses": "56-58"
+          "verses": "14"
+        },
+        {
+          "book": "Judges",
+          "verses": "19"
         }
       ]
     },
@@ -479,20 +406,16 @@
       "day": 26,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "24:28-35"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "12:14-29"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "29:15-27"
+          "book": "John",
+          "verses": "2:1-11"
         },
         {
           "book": "Isaiah",
-          "verses": "59-61"
+          "verses": "15"
+        },
+        {
+          "book": "Judges",
+          "verses": "20"
         }
       ]
     },
@@ -500,45 +423,42 @@
       "day": 27,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "24:36-44"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "13:1-8"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "30"
-        },
-        {
           "book": "Isaiah",
-          "verses": "62-64"
+          "verses": "16"
         }
       ]
     },
     {
       "day": 28,
-      "readings": []
+      "readings": [
+        {
+          "book": "John",
+          "verses": "2:12-25"
+        },
+        {
+          "book": "Isaiah",
+          "verses": "17"
+        },
+        {
+          "book": "Judges",
+          "verses": "21"
+        }
+      ]
     },
     {
       "day": 29,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "24:45-53"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "13:9-25"
-        },
-        {
-          "book": "Proverbs",
-          "verses": "31"
+          "book": "John",
+          "verses": "3:1-15"
         },
         {
           "book": "Isaiah",
-          "verses": "65-66"
+          "verses": "18"
+        },
+        {
+          "book": "Ruth",
+          "verses": "1"
         }
       ]
     },
@@ -546,16 +466,16 @@
       "day": 30,
       "readings": [
         {
-          "book": "Luke",
-          "verses": "23:26-43"
-        },
-        {
-          "book": "Hebrews",
-          "verses": "10:1-18"
+          "book": "John",
+          "verses": "3:16-21"
         },
         {
           "book": "Isaiah",
-          "verses": "51-53"
+          "verses": "19"
+        },
+        {
+          "book": "Ruth",
+          "verses": "2"
         }
       ]
     }
